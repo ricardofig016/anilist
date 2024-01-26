@@ -6,6 +6,8 @@ import time
 from bs4 import BeautifulSoup
 import json
 from icecream import ic
+import requests
+import traceback
 
 
 def is_scroll_at_bottom(driver):
@@ -31,7 +33,7 @@ def get_page_content(url):
     return html_content
 
 
-def fetch_data(username, list_="anime"):
+def fetch_user_data(username, list_="anime"):
     url = "https://anilist.co/user/" + username
     if list_ == "anime":
         url += "/animelist"
@@ -55,8 +57,8 @@ def fetch_data(username, list_="anime"):
     return sorted(data, key=lambda x: x["title"].lower())
 
 
-def store_data(username, data, list_):
-    dir = f"data/{username}/"
+def store_user_data(username, data, list_):
+    dir = f"data/users/{username}/"
     if not os.path.exists(dir):
         os.makedirs(dir)
     path = f"{dir}{list_}.json"
@@ -67,14 +69,131 @@ def store_data(username, data, list_):
     return
 
 
-def read_data(username, list_):
-    path = f"data/{username}/{list_}.json"
+def read_user_data(username, list_):
+    path = f"data/users/{username}/{list_}.json"
     try:
         with open(path, "r") as file:
             data = json.load(file)
         return data
     except:
         return False
+
+
+def fetch_media_item(id_):
+    query = """
+    query ($id: Int) {
+    Media (id: $id) {
+        id
+        idMal
+        title {
+            romaji
+            english
+        }
+        type
+        format
+        status
+        description
+        startDate {
+            year
+        }
+        episodes
+        chapters
+        countryOfOrigin
+        source
+        coverImage {
+            extraLarge
+        }
+        genres
+        averageScore
+        popularity
+        tags {
+            name
+            rank
+        }
+        studios {
+            edges {
+                node {
+                    name
+                }
+                isMain
+            }
+        }
+        siteUrl
+        
+    }
+    }
+    """
+
+    variables = {"id": id_}
+
+    url = "https://graphql.anilist.co"
+    response = requests.post(url, json={"query": query, "variables": variables})
+
+    if response.status_code == 429:
+        ic("1-minute timeout")
+        time.sleep(61)
+        return fetch_media_item(id_)
+
+    if response.status_code != 200:
+        print(f"Error: Status code: {response.status_code}")
+        return
+
+    query_data = response.json()
+
+    if "errors" in query_data:
+        print(f"Error: {query_data['errors']}")
+        return
+
+    media_data = query_data["data"]["Media"]
+    return organize_title_media(media_data)
+
+
+def organize_title_media(media_data):
+    tags = media_data["tags"]
+
+    studios = []
+    for studio in media_data["studios"]["edges"]:
+        if studio["isMain"]:
+            studios.append(studio["node"]["name"])
+
+    item = {
+        "id": media_data["id"],
+        "idMal": media_data["idMal"],
+        "title": media_data["title"],
+        "type": media_data["type"],
+        "format": media_data["format"],
+        "status": media_data["status"],
+        "description": media_data["description"],
+        "year": media_data["startDate"]["year"],
+        "episodes": media_data["episodes"],
+        "chapters": media_data["chapters"],
+        "country": media_data["countryOfOrigin"],
+        "source": media_data["source"],
+        "coverImage": media_data["coverImage"]["extraLarge"],
+        "genres": media_data["genres"],
+        "averageScore": media_data["averageScore"],
+        "popularity": media_data["popularity"],
+        "tags": tags,
+        "studios": studios,
+        "siteUrl": media_data["siteUrl"],
+    }
+    return item
+
+
+def store_media_data(data):
+    path = f"data/media.json"
+
+    json_data = json.dumps(data, indent=2)
+    with open(path, "w", encoding="utf-8") as file:
+        file.write(json_data)
+    return
+
+
+def read_media_data():
+    path = f"data/media.json"
+    with open(path, "r") as file:
+        data = json.load(file)
+    return data
 
 
 def main():
@@ -86,6 +205,7 @@ def main():
     list_ = "anime"
     fetch = False
     display = False
+    update = False
 
     if "--manga" in sys.argv:
         list_ = "manga"
@@ -93,14 +213,36 @@ def main():
         fetch = True
     if "--display" in sys.argv:
         display = True
+    if "--update" in sys.argv:
+        update = True
 
-    data = read_data(username, list_)
-    if not data or fetch:
-        data = fetch_data(username, list_)
-        store_data(username, data, list_)
+    user_data = read_user_data(username, list_)
+    if not user_data or fetch:
+        user_data = fetch_user_data(username, list_)
+        store_user_data(username, user_data, list_)
 
     if display:
-        ic(data)
+        ic(user_data)
+
+    #####
+
+    media_data = read_media_data()
+    try:
+        index = 0
+        if len(media_data) > 0:
+            index = media_data[-1]["id"] + 1
+        while True:
+            ic(index)
+            item_ = fetch_media_item(index)
+            if item_:
+                media_data.append(item_)
+            index += 1
+            time.sleep(1.7)
+    except Exception as e:
+        ic(e)
+        traceback.print_exc()
+    finally:
+        store_media_data(media_data)
 
 
 if __name__ == "__main__":
