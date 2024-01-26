@@ -1,4 +1,5 @@
 import sys
+import os
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
@@ -12,9 +13,9 @@ def is_scroll_at_bottom(driver):
     max_scroll_height = driver.execute_script(
         "return Math.max( document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight );"
     )
-    hight_diff = max_scroll_height - current_scroll_position
-    ic(hight_diff)
-    return hight_diff <= 1000
+    height_diff = max_scroll_height - current_scroll_position
+    # ic(height_diff)
+    return height_diff <= 1000
 
 
 def get_page_content(url):
@@ -30,39 +31,50 @@ def get_page_content(url):
     return html_content
 
 
-def fetch_data(username, list="anime"):
+def fetch_data(username, list_="anime"):
     url = "https://anilist.co/user/" + username
-    if list == "anime":
+    if list_ == "anime":
         url += "/animelist"
-    elif list == "manga":
+    elif list_ == "manga":
         url += "/mangalist"
     else:
-        print(f"Error: Invalid list: {list}")
+        print(f"Error: Invalid list: {list_}")
 
     soup = BeautifulSoup(get_page_content(url), "html.parser")
     entries = soup.select("div.entry.row") + soup.select("div.entry-card.row")
     data = []
     for entry in entries:
         title_link = entry.find("div", class_="title").find("a")
-        id = title_link["href"].split("/")[-3]
+        id_ = title_link["href"].split("/")[-3]
         title = title_link.text.strip()
         score = entry.find("div", class_="score").get("score")
-        item = [id, title, score]
+        item = {"id": id_, "title": title, "score": score}
         if not item in data:
             data.append(item)
 
-    return sorted(data, key=lambda x: x[1].lower())
+    return sorted(data, key=lambda x: x["title"].lower())
 
 
-def store_data(username, data):
-    formatted_data = [
-        {"id": item[0], "title": item[1], "score": item[2]} for item in data
-    ]
-    json_data = json.dumps(formatted_data, indent=2)
-    path = f"data/{username}.json"
+def store_data(username, data, list_):
+    dir = f"data/{username}/"
+    if not os.path.exists(dir):
+        os.makedirs(dir)
+    path = f"{dir}{list_}.json"
+
+    json_data = json.dumps(data, indent=2)
     with open(path, "w", encoding="utf-8") as file:
         file.write(json_data)
     return
+
+
+def read_data(username, list_):
+    path = f"data/{username}/{list_}.json"
+    try:
+        with open(path, "r") as file:
+            data = json.load(file)
+        return data
+    except:
+        return False
 
 
 def main():
@@ -71,15 +83,24 @@ def main():
         sys.exit(1)
 
     username = sys.argv[1]
-    list = "anime"
+    list_ = "anime"
+    fetch = False
+    display = False
 
     if "--manga" in sys.argv:
-        list = "manga"
+        list_ = "manga"
+    if "--fetch" in sys.argv:
+        fetch = True
+    if "--display" in sys.argv:
+        display = True
 
-    data = fetch_data(username, list)
-    ic(data)
-    ic(len(data))
-    store_data(username, data)
+    data = read_data(username, list_)
+    if not data or fetch:
+        data = fetch_data(username, list_)
+        store_data(username, data, list_)
+
+    if display:
+        ic(data)
 
 
 if __name__ == "__main__":
