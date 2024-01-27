@@ -79,6 +79,26 @@ def read_user_data(username, list_):
         return False
 
 
+def fetch_and_store_media_data():
+    media_data = read_media_data()
+    try:
+        index = 0
+        if len(media_data) > 0:
+            index = media_data[-1]["id"] + 1
+        while True:
+            ic(index)
+            item_ = fetch_media_item(index)
+            if item_:
+                media_data.append(item_)
+            index += 1
+            time.sleep(1.7)
+    except Exception as e:
+        ic(e)
+        traceback.print_exc()
+    finally:
+        store_media_data(media_data)
+
+
 def fetch_media_item(id_):
     query = """
     query ($id: Int) {
@@ -196,53 +216,48 @@ def read_media_data():
     return data
 
 
+def display_user():
+    pass
+
+
+def display_media(data):
+    sorted_media = sorted(data, key=lambda x: x.get("popularity", 0), reverse=True)
+    filtered_media = [
+        {"title": entry.get("title").get("english"), "url": entry.get("siteUrl")}
+        for entry in sorted_media
+    ]
+    with open("test.json", "w") as file:
+        json.dump(filtered_media, file, indent=2)
+
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: /bin/python3 main.py <username> <arguments>")
         sys.exit(1)
 
-    username = sys.argv[1]
-    list_ = "anime"
-    fetch = False
-    display = False
-    update = False
+    sys.argv = [argument.lower() for argument in sys.argv]
 
+    username = sys.argv[1]
+
+    list_ = "anime"
     if "--manga" in sys.argv:
         list_ = "manga"
-    if "--fetch" in sys.argv:
-        fetch = True
-    if "--display" in sys.argv:
-        display = True
-    if "--update" in sys.argv:
-        update = True
 
     user_data = read_user_data(username, list_)
-    if not user_data or fetch:
+    media_data = read_media_data()
+
+    if not user_data or "--fetch-user" in sys.argv:
         user_data = fetch_user_data(username, list_)
         store_user_data(username, user_data, list_)
 
-    if display:
-        ic(user_data)
+    if "--fetch-media" in sys.argv:
+        fetch_and_store_media_data()
 
-    #####
+    if "--display-user" in sys.argv:
+        display_user(user_data)
 
-    media_data = read_media_data()
-    try:
-        index = 0
-        if len(media_data) > 0:
-            index = media_data[-1]["id"] + 1
-        while True:
-            ic(index)
-            item_ = fetch_media_item(index)
-            if item_:
-                media_data.append(item_)
-            index += 1
-            time.sleep(1.7)
-    except Exception as e:
-        ic(e)
-        traceback.print_exc()
-    finally:
-        store_media_data(media_data)
+    if "--display-media" in sys.argv:
+        display_media(media_data)
 
 
 if __name__ == "__main__":
