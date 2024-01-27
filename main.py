@@ -8,6 +8,7 @@ import json
 from icecream import ic
 import requests
 import traceback
+import functools
 
 
 def is_scroll_at_bottom(driver):
@@ -216,18 +217,74 @@ def read_media_data():
     return data
 
 
-def display_user():
-    pass
+def display(data, file_name):
+    sort_keys = input("[display] Sort by: ").split(".")
 
+    example_value = data[0]
+    try:
+        for key in sort_keys:
+            example_value = example_value[key]
+    except:
+        print(f"[display] Error: {sort_keys} is not a valid key combination.")
+        return
 
-def display_media(data):
-    sorted_media = sorted(data, key=lambda x: x.get("popularity", 0), reverse=True)
-    filtered_media = [
-        {"title": entry.get("title").get("english"), "url": entry.get("siteUrl")}
-        for entry in sorted_media
-    ]
-    with open("test.json", "w") as file:
-        json.dump(filtered_media, file, indent=2)
+    if type(example_value) == dict:
+        print(
+            "[display] Error: Key cannot be a dictionary.",
+            "Use <dict>.<key> to access keys inside dictionaries.",
+        )
+        return
+
+    is_reverse = input("[display] Reverse (y/n): ").lower() == "y"
+
+    default_value = 0
+    if type(example_value) == str:
+        default_value = ""
+
+    sorted_data = []
+    if len(sort_keys) == 1:
+        sorted_data = sorted(
+            data,
+            key=lambda x: x.get(sort_keys[0], default_value)
+            if x.get(sort_keys[0]) is not None
+            else default_value,
+            reverse=is_reverse,
+        )
+    elif len(sort_keys) == 2:
+        sorted_data = sorted(
+            data,
+            key=lambda x: x.get(sort_keys[0]).get(sort_keys[1], default_value)
+            if x.get(sort_keys[0]).get(sort_keys[1]) is not None
+            else default_value,
+            reverse=is_reverse,
+        )
+    else:
+        print(f"[display] Error: {len(sort_keys)} is not a valid number of keys")
+
+    filter_keys = []
+    key_combination = input("[display] Filter by (-1 to finish): ").split(".")
+    while key_combination[0] != "-1":
+        filter_keys.append(key_combination)
+        key_combination = input("[display] Filter by (-1 to finish): ").split(".")
+
+    try:
+        filtered_data = []
+        for entry in sorted_data:
+            filtered_entry = {}
+            for key_comb in filter_keys:
+                value = entry
+                for key in key_comb:
+                    value = value[key]
+                filtered_entry["_".join(key_comb)] = value
+            filtered_data.append(filtered_entry)
+
+        file_path = os.path.join("results", file_name)
+        with open(file_path, "w") as file:
+            json.dump(filtered_data, file, indent=2)
+        print(f"[display] See results at '{file_path}'")
+    except Exception as e:
+        print("[display] Error: ", e)
+    return
 
 
 def main():
@@ -254,10 +311,10 @@ def main():
         fetch_and_store_media_data()
 
     if "--display-user" in sys.argv:
-        display_user(user_data)
+        display(user_data, "display_user.json")
 
     if "--display-media" in sys.argv:
-        display_media(media_data)
+        display(media_data, "display_media.json")
 
 
 if __name__ == "__main__":
