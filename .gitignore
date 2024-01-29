@@ -1,5 +1,7 @@
 data/users
 results/*
 
+__pycache__
+
 test.json
 test.py
