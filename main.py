@@ -1,7 +1,9 @@
 import sys
+from icecream import ic
 
 from user import read_user_data, fetch_user_data, store_user_data
 from media import read_media_data, fetch_and_store_media_data, display_media
+from preference import get_preferences
 
 
 def main():
@@ -25,6 +27,10 @@ def main():
 
     if "--display-media" in sys.argv:
         display_media(media_data)
+
+    if "--preferences" in sys.argv:
+        preferences = get_preferences(user_data, media_data)
+        ic(preferences)
 
 
 if __name__ == "__main__":
