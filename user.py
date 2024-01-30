@@ -43,7 +43,7 @@ def fetch_user_data(username):
             id_ = title_link["href"].split("/")[-3]
             title = title_link.text.strip()
             score = entry.find("div", class_="score").get("score")
-            item = {"id": id_, "title": title, "score": score}
+            item = {"id": int(id_), "title": title, "score": float(score)}
             if not item in data:
                 data.append(item)
 
@@ -51,9 +51,6 @@ def fetch_user_data(username):
 
 
 def store_user_data(username, data):
-    dir = f"data/users/{username}/"
-    if not os.path.exists(dir):
-        os.makedirs(dir)
     path = f"data/users/{username}.json"
 
     json_data = json.dumps(data, indent=2)
