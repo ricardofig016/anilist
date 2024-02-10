@@ -1,4 +1,5 @@
 data/users
+data/media.json
 results/*
 
 __pycache__
