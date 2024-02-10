@@ -1,12 +1,5117 @@
 [
   {
+    "id": 154376,
+    "title": "\"Okaeri, Papa\"",
+    "score": 7.0
+  },
+  {
+    "id": 48,
+    "title": ".hack//SIGN",
+    "score": 7.0
+  },
+  {
+    "id": 298,
+    "title": ".hack//Tasogare no Udewa Densetsu",
+    "score": 4.0
+  },
+  {
+    "id": 30003,
+    "title": "20 Seiki Shounen",
+    "score": 10.0
+  },
+  {
+    "id": 30743,
+    "title": "21 Seiki Shounen",
+    "score": 10.0
+  },
+  {
+    "id": 21366,
+    "title": "3-gatsu no Lion",
+    "score": 9.5
+  },
+  {
+    "id": 98478,
+    "title": "3-gatsu no Lion 2",
+    "score": 9.0
+  },
+  {
+    "id": 116589,
+    "title": "86: Eighty Six",
+    "score": 9.5
+  },
+  {
+    "id": 131586,
+    "title": "86: Eighty Six Part 2",
+    "score": 9.5
+  },
+  {
+    "id": 150672,
+    "title": "[Oshi no Ko]",
+    "score": 9.0
+  },
+  {
+    "id": 117195,
+    "title": "[Oshi no Ko]",
+    "score": 8.5
+  },
+  {
+    "id": 166531,
+    "title": "[Oshi no Ko] 2nd Season",
+    "score": 0.0
+  },
+  {
+    "id": 139031,
+    "title": "A-Rank Party wo Ridatsu Shita Ore wa, Moto Oshiegotachi to Meikyuu Shinbu wo Mezasu",
+    "score": 6.5
+  },
+  {
+    "id": 11759,
+    "title": "Accel World",
+    "score": 5.0
+  },
+  {
+    "id": 104285,
+    "title": "Adamas no Majotachi",
+    "score": 7.0
+  },
+  {
+    "id": 21726,
+    "title": "Aggressive Retsuko",
+    "score": 8.0
+  },
+  {
+    "id": 101571,
+    "title": "Aggressive Retsuko",
+    "score": 8.0
+  },
+  {
+    "id": 105200,
+    "title": "Aggressive Retsuko Season 2",
+    "score": 7.0
+  },
+  {
+    "id": 110857,
+    "title": "Aggressive Retsuko Season 3",
+    "score": 7.0
+  },
+  {
+    "id": 127619,
+    "title": "Aggressive Retsuko Season 4",
+    "score": 7.0
+  },
+  {
+    "id": 154983,
+    "title": "Aggressive Retsuko Season 5",
+    "score": 0.0
+  },
+  {
+    "id": 137281,
+    "title": "Aharen-san wa Hakarenai",
+    "score": 7.0
+  },
+  {
+    "id": 101,
+    "title": "AIR",
+    "score": 7.0
+  },
+  {
+    "id": 55132,
+    "title": "Akame ga Kill!",
+    "score": 7.0
+  },
+  {
+    "id": 144866,
+    "title": "Akane-banashi",
+    "score": 0.0
+  },
+  {
+    "id": 151379,
+    "title": "Akiba Meido Sensou",
+    "score": 2.0
+  },
+  {
+    "id": 47,
+    "title": "AKIRA",
+    "score": 7.0
+  },
+  {
+    "id": 116566,
+    "title": "Akudama Drive",
+    "score": 4.0
+  },
+  {
+    "id": 163076,
+    "title": "Akuyaku Reijou Level 99: Watashi wa Ura Boss desu ga Maou de wa Arimasen",
+    "score": 6.5
+  },
+  {
+    "id": 8676,
+    "title": "Amagami SS",
+    "score": 7.0
+  },
+  {
+    "id": 6547,
+    "title": "Angel Beats!",
+    "score": 8.0
+  },
+  {
+    "id": 173831,
+    "title": "Aniki no Kanojo ni Naru, Onnanoko ni Nacchatta Otouto.",
+    "score": 7.0
+  },
+  {
+    "id": 9989,
+    "title": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.",
+    "score": 8.0
+  },
+  {
+    "id": 11111,
+    "title": "Another",
+    "score": 4.0
+  },
+  {
+    "id": 69883,
+    "title": "Ansatsu Kyoushitsu",
+    "score": 7.0
+  },
+  {
+    "id": 20596,
+    "title": "Ao Haru Ride",
+    "score": 8.0
+  },
+  {
+    "id": 9919,
+    "title": "Ao no Exorcist",
+    "score": 7.0
+  },
+  {
+    "id": 158931,
+    "title": "Ao no Exorcist: Shimane Illuminati-hen",
+    "score": 0.0
+  },
+  {
+    "id": 170942,
+    "title": "Ao no Hako",
+    "score": 0.0
+  },
+  {
+    "id": 132182,
+    "title": "Ao no Hako",
+    "score": 8.0
+  },
+  {
+    "id": 122342,
+    "title": "Ao no Hako",
+    "score": 7.0
+  },
+  {
+    "id": 7647,
+    "title": "Arakawa Under the Bridge",
+    "score": 9.0
+  },
+  {
+    "id": 9074,
+    "title": "Arakawa Under the Bridge x Bridge",
+    "score": 9.0
+  },
+  {
+    "id": 100668,
+    "title": "Arifureta Shokugyou de Sekai Saikyou",
+    "score": 7.0
+  },
+  {
+    "id": 86274,
+    "title": "Arifureta Shokugyou de Sekai Saikyou",
+    "score": 8.0
+  },
+  {
+    "id": 112323,
+    "title": "Arifureta Shokugyou de Sekai Saikyou 2nd season",
+    "score": 7.0
+  },
+  {
+    "id": 20935,
+    "title": "Arslan Senki (TV)",
+    "score": 7.0
+  },
+  {
+    "id": 1946,
+    "title": "Ashita no Nadja",
+    "score": 7.0
+  },
+  {
+    "id": 101001,
+    "title": "Asobi Asobase",
+    "score": 9.0
+  },
+  {
+    "id": 110374,
+    "title": "Asobinin wa Kenja ni Tenshoku Dekiru tte Shittemashita?: Yuusha Party wo Tsuihou Sareta Lv99, \"Taikenja\" ni Naru",
+    "score": 6.0
+  },
+  {
+    "id": 154852,
+    "title": "Astral Online: Maou no Noroi de Saikyou Bishoujo ni Natta Ore, Saijaku Shoku da ga Cheat Skill de Chou Seichou Shite Musou Suru",
+    "score": 7.0
+  },
+  {
+    "id": 165070,
+    "title": "Atarashii Joushi wa Dotennen",
+    "score": 6.0
+  },
+  {
+    "id": 66,
+    "title": "Azumanga Daiou THE ANIMATION",
+    "score": 9.0
+  },
+  {
+    "id": 2251,
+    "title": "Baccano!",
+    "score": 9.5
+  },
+  {
+    "id": 20981,
+    "title": "Bakemono no Ko",
+    "score": 8.0
+  },
+  {
+    "id": 108948,
+    "title": "Bakemono Recchan/Kinoko Takenoko",
+    "score": 9.0
+  },
+  {
+    "id": 5081,
+    "title": "Bakemonogatari",
+    "score": 9.0
+  },
+  {
+    "id": 44893,
+    "title": "Bakemonogatari",
+    "score": 0.0
+  },
+  {
+    "id": 86056,
+    "title": "Baki Dou",
+    "score": 8.0
+  },
+  {
+    "id": 7674,
+    "title": "Bakuman.",
+    "score": 8.0
+  },
+  {
+    "id": 10030,
+    "title": "Bakuman. 2",
+    "score": 8.0
+  },
+  {
+    "id": 12365,
+    "title": "Bakuman. 3",
+    "score": 8.0
+  },
+  {
+    "id": 98005,
+    "title": "Ballroom e Youkoso",
+    "score": 7.0
+  },
+  {
+    "id": 100388,
+    "title": "BANANA FISH",
+    "score": 0.0
+  },
+  {
+    "id": 20722,
+    "title": "Barakamon",
+    "score": 9.5
+  },
+  {
+    "id": 169593,
+    "title": "Batsu Naki Gaiden: Takanashi-kun to Karasuma-san",
+    "score": 0.0
+  },
+  {
+    "id": 139841,
+    "title": "Batsuichi de Nakimushi na Otonari-san",
+    "score": 9.0
+  },
+  {
+    "id": 107660,
+    "title": "BEASTARS",
+    "score": 8.0
+  },
+  {
+    "id": 114194,
+    "title": "BEASTARS 2",
+    "score": 0.0
+  },
+  {
+    "id": 144092,
+    "title": "Benriya Saitou-san, Isekai ni Iku",
+    "score": 6.0
+  },
+  {
+    "id": 30002,
+    "title": "Berserk",
+    "score": 9.0
+  },
+  {
+    "id": 34068,
+    "title": "BioMeat: Nectar",
+    "score": 6.0
+  },
+  {
+    "id": 103854,
+    "title": "Bitgwa Geurimja",
+    "score": 0.0
+  },
+  {
+    "id": 97940,
+    "title": "Black Clover",
+    "score": 0.0
+  },
+  {
+    "id": 97460,
+    "title": "Black Kanojo",
+    "score": 7.0
+  },
+  {
+    "id": 889,
+    "title": "BLACK LAGOON",
+    "score": 8.5
+  },
+  {
+    "id": 4901,
+    "title": "BLACK LAGOON: Roberta's Blood Trail",
+    "score": 7.0
+  },
+  {
+    "id": 1519,
+    "title": "BLACK LAGOON: The Second Barrage",
+    "score": 8.5
+  },
+  {
+    "id": 11285,
+    "title": "Black\u2605Rock Shooter (TV)",
+    "score": 7.0
+  },
+  {
+    "id": 116674,
+    "title": "BLEACH: Sennen Kessen-hen",
+    "score": 1.0
+  },
+  {
+    "id": 97994,
+    "title": "Blend S",
+    "score": 5.0
+  },
+  {
+    "id": 137822,
+    "title": "Blue Lock",
+    "score": 8.0
+  },
+  {
+    "id": 106130,
+    "title": "Blue Lock",
+    "score": 8.0
+  },
+  {
+    "id": 146203,
+    "title": "Blue Lock: EPISODE Nagi",
+    "score": 7.0
+  },
+  {
+    "id": 128705,
+    "title": "Blue Period",
+    "score": 9.0
+  },
+  {
+    "id": 107237,
+    "title": "Blue Period",
+    "score": 9.0
+  },
+  {
+    "id": 130003,
+    "title": "Bocchi the Rock!",
+    "score": 9.0
+  },
+  {
+    "id": 21234,
+    "title": "Boku dake ga Inai Machi",
+    "score": 7.0
+  },
+  {
     "id": 21459,
     "title": "Boku no Hero Academia",
+    "score": 7.0
+  },
+  {
+    "id": 85486,
+    "title": "Boku no Hero Academia",
+    "score": 7.0
+  },
+  {
+    "id": 21856,
+    "title": "Boku no Hero Academia 2",
+    "score": 7.0
+  },
+  {
+    "id": 100166,
+    "title": "Boku no Hero Academia 3",
+    "score": 6.0
+  },
+  {
+    "id": 104276,
+    "title": "Boku no Hero Academia 4",
+    "score": 7.0
+  },
+  {
+    "id": 117193,
+    "title": "Boku no Hero Academia 5",
+    "score": 6.0
+  },
+  {
+    "id": 139630,
+    "title": "Boku no Hero Academia 6",
+    "score": 7.0
+  },
+  {
+    "id": 108553,
+    "title": "Boku no Hero Academia THE MOVIE: Heroes:Rising",
+    "score": 6.0
+  },
+  {
+    "id": 146731,
+    "title": "Boku wa Kimitachi wo Shihai suru",
+    "score": 7.0
+  },
+  {
+    "id": 66267,
+    "title": "Boku wa Mari no Naka",
+    "score": 9.0
+  },
+  {
+    "id": 1222,
+    "title": "Bokura ga Ita",
+    "score": 9.0
+  },
+  {
+    "id": 31031,
+    "title": "Bokura ga Ita",
+    "score": 9.0
+  },
+  {
+    "id": 1690,
+    "title": "Bokurano",
+    "score": 8.5
+  },
+  {
+    "id": 139465,
+    "title": "Boroboro no Elf-san wo Shiawase ni Suru Kusuriuri-san",
+    "score": 7.0
+  },
+  {
+    "id": 97938,
+    "title": "BORUTO: NARUTO NEXT GENERATIONS",
     "score": 1.0
+  },
+  {
+    "id": 101625,
+    "title": "Boushoku no Berserk: Ore Dake Level to Iu Gainen wo Toppa Suru THE COMIC",
+    "score": 6.0
+  },
+  {
+    "id": 114972,
+    "title": "Boys Run The Riot",
+    "score": 7.0
+  },
+  {
+    "id": 14345,
+    "title": "BTOOOM!",
+    "score": 4.0
+  },
+  {
+    "id": 568,
+    "title": "Bubblegum Crisis TOKYO 2040",
+    "score": 7.0
+  },
+  {
+    "id": 155907,
+    "title": "Buddy Daddies",
+    "score": 7.0
+  },
+  {
+    "id": 157399,
+    "title": "Bullbuster",
+    "score": 3.0
+  },
+  {
+    "id": 21311,
+    "title": "Bungou Stray Dogs",
+    "score": 7.0
+  },
+  {
+    "id": 21679,
+    "title": "Bungou Stray Dogs 2nd Season",
+    "score": 7.0
+  },
+  {
+    "id": 103223,
+    "title": "Bungou Stray Dogs 3rd Season",
+    "score": 7.0
+  },
+  {
+    "id": 141249,
+    "title": "Bungou Stray Dogs 4th Season",
+    "score": 0.0
+  },
+  {
+    "id": 142599,
+    "title": "Buta no Liver wa Kanetsu Shiro",
+    "score": 2.0
+  },
+  {
+    "id": 5356,
+    "title": "Canaan",
+    "score": 5.0
+  },
+  {
+    "id": 232,
+    "title": "Cardcaptor Sakura",
+    "score": 9.0
+  },
+  {
+    "id": 127230,
+    "title": "Chainsaw Man",
+    "score": 8.5
+  },
+  {
+    "id": 105778,
+    "title": "Chainsaw Man",
+    "score": 8.0
+  },
+  {
+    "id": 138829,
+    "title": "Chainsaw Man: Buddy Stories",
+    "score": 0.0
+  },
+  {
+    "id": 20997,
+    "title": "Charlotte",
+    "score": 7.0
+  },
+  {
+    "id": 106820,
+    "title": "Cheat Kusushi no Slow Life: Isekai ni Tsukurou Drugstore",
+    "score": 6.0
+  },
+  {
+    "id": 98397,
+    "title": "Chi no Wadachi",
+    "score": 8.0
+  },
+  {
+    "id": 107980,
+    "title": "Chichi wa Eiyuu, Haha wa Seirei, Musume no Watashi wa Tenseisha.",
+    "score": 6.0
+  },
+  {
+    "id": 105054,
+    "title": "Children",
+    "score": 8.0
+  },
+  {
+    "id": 137908,
+    "title": "Chiyu Mahou no Machigatta Tsukaikata",
+    "score": 5.0
+  },
+  {
+    "id": 59,
+    "title": "Chobits",
+    "score": 8.0
+  },
+  {
+    "id": 30107,
+    "title": "Chobits",
+    "score": 9.0
+  },
+  {
+    "id": 60,
+    "title": "Chrno Crusade",
+    "score": 7.0
+  },
+  {
+    "id": 14741,
+    "title": "Chuunibyou demo Koi ga Shitai!",
+    "score": 7.0
+  },
+  {
+    "id": 18671,
+    "title": "Chuunibyou demo Koi ga Shitai! Ren",
+    "score": 7.0
+  },
+  {
+    "id": 21126,
+    "title": "Ch\u00e4oS;Child",
+    "score": 6.0
+  },
+  {
+    "id": 2167,
+    "title": "CLANNAD",
+    "score": 9.0
+  },
+  {
+    "id": 4181,
+    "title": "CLANNAD: After Story",
+    "score": 10.0
+  },
+  {
+    "id": 1575,
+    "title": "Code Geass: Hangyaku no Lelouch",
+    "score": 9.0
+  },
+  {
+    "id": 2904,
+    "title": "Code Geass: Hangyaku no Lelouch R2",
+    "score": 10.0
+  },
+  {
+    "id": 111,
+    "title": "Corrector Yui",
+    "score": 6.0
+  },
+  {
+    "id": 1,
+    "title": "Cowboy Bebop",
+    "score": 9.0
+  },
+  {
+    "id": 120377,
+    "title": "Cyberpunk: Edgerunners",
+    "score": 9.0
+  },
+  {
+    "id": 132171,
+    "title": "Dance Dance Danseur",
+    "score": 8.5
+  },
+  {
+    "id": 112905,
+    "title": "Dance Dance Danseur",
+    "score": 8.0
+  },
+  {
+    "id": 171018,
+    "title": "Dandadan",
+    "score": 0.0
+  },
+  {
+    "id": 132029,
+    "title": "Dandadan",
+    "score": 9.0
+  },
+  {
+    "id": 16592,
+    "title": "Danganronpa: Kibou no Gakuen to Zetsubou no Koukousei - The Animation",
+    "score": 6.0
+  },
+  {
+    "id": 11843,
+    "title": "Danshi Koukousei no Nichijou",
+    "score": 9.0
+  },
+  {
+    "id": 2025,
+    "title": "DARKER THAN BLACK: Kuro no Keiyakusha",
+    "score": 8.0
+  },
+  {
+    "id": 6573,
+    "title": "DARKER THAN BLACK: Ryuusei no Gemini",
+    "score": 8.5
+  },
+  {
+    "id": 99423,
+    "title": "Darling in the Franxx",
+    "score": 6.0
+  },
+  {
+    "id": 105190,
+    "title": "Darwin's Game",
+    "score": 6.5
+  },
+  {
+    "id": 78881,
+    "title": "Darwin's Game",
+    "score": 0.0
+  },
+  {
+    "id": 146609,
+    "title": "Dead Dead Demon's Dededededestruction",
+    "score": 0.0
+  },
+  {
+    "id": 85316,
+    "title": "Dead Dead Demon's Dededededestruction",
+    "score": 10.0
+  },
+  {
+    "id": 85671,
+    "title": "DEAD Tube",
+    "score": 4.0
+  },
+  {
+    "id": 6880,
+    "title": "Deadman Wonderland",
+    "score": 5.5
+  },
+  {
+    "id": 105142,
+    "title": "Deaimon",
+    "score": 0.0
+  },
+  {
+    "id": 1535,
+    "title": "DEATH NOTE",
+    "score": 8.0
+  },
+  {
+    "id": 20931,
+    "title": "Death Parade",
+    "score": 7.5
+  },
+  {
+    "id": 126047,
+    "title": "Deatte 5-byou de Battle",
+    "score": 6.0
+  },
+  {
+    "id": 149883,
+    "title": "Dekiru Neko wa Kyou mo Yuuutsu",
+    "score": 7.0
+  },
+  {
+    "id": 153825,
+    "title": "Destiny Unchain Online: Kyuuketsuki Shoujo to Natte, Yagate \"Aka no Maou\" to Yobareru You ni Narimashita",
+    "score": 7.0
+  },
+  {
+    "id": 3702,
+    "title": "Detroit Metal City",
+    "score": 8.0
+  },
+  {
+    "id": 293,
+    "title": "Di Gi Charat",
+    "score": 6.0
+  },
+  {
+    "id": 1132,
+    "title": "Digimon Frontier",
+    "score": 7.0
+  },
+  {
+    "id": 874,
+    "title": "Digimon Tamers",
+    "score": 8.5
+  },
+  {
+    "id": 131516,
+    "title": "Do It Yourself!!",
+    "score": 5.0
+  },
+  {
+    "id": 105228,
+    "title": "Dorohedoro",
+    "score": 8.0
+  },
+  {
+    "id": 31133,
+    "title": "Dorohedoro",
+    "score": 0.0
+  },
+  {
+    "id": 101347,
+    "title": "Dororo",
+    "score": 9.0
+  },
+  {
+    "id": 1684,
+    "title": "Dotto KONI-chan",
+    "score": 7.0
+  },
+  {
+    "id": 105333,
+    "title": "Dr. STONE",
+    "score": 9.0
+  },
+  {
+    "id": 98416,
+    "title": "Dr. STONE",
+    "score": 9.5
+  },
+  {
+    "id": 131518,
+    "title": "Dr. STONE: NEW WORLD",
+    "score": 9.0
+  },
+  {
+    "id": 162670,
+    "title": "Dr. STONE: NEW WORLD Part 2",
+    "score": 9.0
+  },
+  {
+    "id": 142876,
+    "title": "Dr. STONE: Ryuusui",
+    "score": 9.0
+  },
+  {
+    "id": 172019,
+    "title": "Dr. STONE: SCIENCE FUTURE",
+    "score": 0.0
+  },
+  {
+    "id": 113936,
+    "title": "Dr. STONE: STONE WARS",
+    "score": 9.0
   },
   {
     "id": 223,
     "title": "Dragon Ball",
+    "score": 8.0
+  },
+  {
+    "id": 225,
+    "title": "Dragon Ball GT",
+    "score": 7.0
+  },
+  {
+    "id": 21175,
+    "title": "Dragon Ball Super",
+    "score": 6.0
+  },
+  {
+    "id": 813,
+    "title": "Dragon Ball Z",
+    "score": 7.0
+  },
+  {
+    "id": 153518,
+    "title": "Dungeon Meshi",
+    "score": 7.0
+  },
+  {
+    "id": 86082,
+    "title": "Dungeon Meshi",
+    "score": 0.0
+  },
+  {
+    "id": 20920,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+    "score": 8.0
+  },
+  {
+    "id": 101167,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II",
+    "score": 6.0
+  },
+  {
+    "id": 112124,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka III",
+    "score": 8.0
+  },
+  {
+    "id": 129196,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou Meikyuu-hen",
+    "score": 0.0
+  },
+  {
+    "id": 6746,
+    "title": "Durarara!!",
+    "score": 7.0
+  },
+  {
+    "id": 20880,
+    "title": "Durarara!!x2 Ketsu",
+    "score": 7.0
+  },
+  {
+    "id": 20652,
+    "title": "Durarara!!x2 Shou",
+    "score": 7.0
+  },
+  {
+    "id": 20879,
+    "title": "Durarara!!x2 Ten",
+    "score": 7.0
+  },
+  {
+    "id": 42586,
+    "title": "Eden no Ori",
+    "score": 7.0
+  },
+  {
+    "id": 4789,
+    "title": "ef: a tale of melodies.",
+    "score": 6.0
+  },
+  {
+    "id": 2924,
+    "title": "ef: a tale of memories.",
+    "score": 6.0
+  },
+  {
+    "id": 139606,
+    "title": "Eiyuu Kyoushitsu",
+    "score": 2.0
+  },
+  {
+    "id": 142193,
+    "title": "Eiyuu-ou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi\u2640",
+    "score": 7.0
+  },
+  {
+    "id": 226,
+    "title": "Elfen Lied",
+    "score": 6.0
+  },
+  {
+    "id": 105310,
+    "title": "Enen no Shouboutai",
+    "score": 8.0
+  },
+  {
+    "id": 86310,
+    "title": "Enen no Shouboutai",
+    "score": 8.0
+  },
+  {
+    "id": 114236,
+    "title": "Enen no Shouboutai: Ni no Shou",
+    "score": 8.0
+  },
+  {
+    "id": 790,
+    "title": "Ergo Proxy",
+    "score": 5.0
+  },
+  {
+    "id": 12471,
+    "title": "Eureka Seven AO",
+    "score": 7.0
+  },
+  {
+    "id": 108017,
+    "title": "Family Stalker",
+    "score": 5.0
+  },
+  {
+    "id": 113802,
+    "title": "Fantasy Bishoujo Juniku Oji-san to",
+    "score": 7.0
+  },
+  {
+    "id": 98035,
+    "title": "Fate/Apocrypha",
+    "score": 6.0
+  },
+  {
+    "id": 21717,
+    "title": "Fate/EXTRA Last Encore",
+    "score": 5.0
+  },
+  {
+    "id": 127149,
+    "title": "Fate/Grand Carnival",
+    "score": 9.0
+  },
+  {
+    "id": 103275,
+    "title": "Fate/Grand Order: Zettai Majuu Sensen Babylonia",
+    "score": 8.0
+  },
+  {
+    "id": 14829,
+    "title": "Fate/kaleid liner Prisma\u2606Illya",
+    "score": 9.0
+  },
+  {
+    "id": 20845,
+    "title": "Fate/kaleid liner Prisma\u2606Illya 2wei Herz!",
+    "score": 9.0
+  },
+  {
+    "id": 20467,
+    "title": "Fate/kaleid liner Prisma\u2606Illya 2wei!",
+    "score": 9.0
+  },
+  {
+    "id": 21379,
+    "title": "Fate/kaleid liner Prisma\u2606Illya 3rei!!",
+    "score": 9.0
+  },
+  {
+    "id": 356,
+    "title": "Fate/stay night",
+    "score": 7.0
+  },
+  {
+    "id": 20791,
+    "title": "Fate/stay night [Heaven's Feel] I. presage flower",
+    "score": 9.0
+  },
+  {
+    "id": 21718,
+    "title": "Fate/stay night [Heaven's Feel] II. lost butterfly",
+    "score": 9.0
+  },
+  {
+    "id": 21719,
+    "title": "Fate/stay night [Heaven's Feel] III. spring song",
+    "score": 9.0
+  },
+  {
+    "id": 19603,
+    "title": "Fate/stay night: Unlimited Blade Works",
+    "score": 8.0
+  },
+  {
+    "id": 20792,
+    "title": "Fate/stay night: Unlimited Blade Works 2nd Season",
+    "score": 8.0
+  },
+  {
+    "id": 10087,
+    "title": "Fate/Zero",
+    "score": 8.0
+  },
+  {
+    "id": 11741,
+    "title": "Fate/Zero 2nd Season",
+    "score": 9.0
+  },
+  {
+    "id": 113666,
+    "title": "FFF Geum Gwansimyongsa",
+    "score": 7.0
+  },
+  {
+    "id": 87170,
+    "title": "Fire Punch",
+    "score": 8.0
+  },
+  {
+    "id": 227,
+    "title": "FLCL",
+    "score": 7.5
+  },
+  {
+    "id": 71,
+    "title": "Full Metal Panic!",
+    "score": 7.0
+  },
+  {
+    "id": 73,
+    "title": "Full Metal Panic! The Second Raid",
+    "score": 8.0
+  },
+  {
+    "id": 72,
+    "title": "Full Metal Panic? Fumoffu",
+    "score": 8.0
+  },
+  {
+    "id": 114535,
+    "title": "Fumetsu no Anata e",
+    "score": 9.5
+  },
+  {
+    "id": 97830,
+    "title": "Fumetsu no Anata e",
+    "score": 8.5
+  },
+  {
+    "id": 138565,
+    "title": "Fumetsu no Anata e Season 2",
+    "score": 9.0
+  },
+  {
+    "id": 162669,
+    "title": "Fumetsu no Anata e Season 3",
+    "score": 0.0
+  },
+  {
+    "id": 120067,
+    "title": "Futari Escape",
+    "score": 0.0
+  },
+  {
+    "id": 114475,
+    "title": "Futari wa Daitai Konna Kanji",
+    "score": 0.0
+  },
+  {
+    "id": 101898,
+    "title": "Gacha wo Mawashite Nakama wo Fuyasu: Saikyou no Bishoujo Gundan wo Tsukuriagero",
+    "score": 4.0
+  },
+  {
+    "id": 144946,
+    "title": "Gachiakuta",
+    "score": 3.0
+  },
+  {
+    "id": 98900,
+    "title": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu",
+    "score": 6.0
+  },
+  {
+    "id": 20754,
+    "title": "Gakkou Gurashi!",
+    "score": 8.0
+  },
+  {
+    "id": 8074,
+    "title": "Gakuen Mokushiroku: HIGHSCHOOL OF THE DEAD",
+    "score": 7.0
+  },
+  {
+    "id": 20773,
+    "title": "GANGSTA.",
+    "score": 6.0
+  },
+  {
+    "id": 384,
+    "title": "GANTZ",
+    "score": 7.0
+  },
+  {
+    "id": 30564,
+    "title": "GANTZ",
+    "score": 8.0
+  },
+  {
+    "id": 395,
+    "title": "GANTZ 2",
+    "score": 4.0
+  },
+  {
+    "id": 117964,
+    "title": "Garbage Brave: Isekai ni Shoukan Sare Suterareta Yuusha no Fukushuu Monogatari",
+    "score": 6.0
+  },
+  {
+    "id": 18229,
+    "title": "Gatchaman Crowds",
+    "score": 8.0
+  },
+  {
+    "id": 20487,
+    "title": "Gatchaman Crowds insight",
+    "score": 8.0
+  },
+  {
+    "id": 20994,
+    "title": "GATE: Jieitai Kanochi nite, Kaku Tatakaeri",
+    "score": 8.0
+  },
+  {
+    "id": 21364,
+    "title": "GATE: Jieitai Kanochi nite, Kaku Tatakaeri 2",
+    "score": 8.0
+  },
+  {
+    "id": 85464,
+    "title": "Gekijouban Mahou Shoujo Madoka\u2605Magica: Shinpen - Hangyaku no Monogatari",
+    "score": 7.0
+  },
+  {
+    "id": 20668,
+    "title": "Gekkan Shoujo Nozaki-kun",
+    "score": 7.5
+  },
+  {
+    "id": 117612,
+    "title": "Genjitsu Shugi Yuusha no Oukoku Saikenki",
+    "score": 5.0
+  },
+  {
+    "id": 104973,
+    "title": "Geunyeoga Gongjagjeolo Gaya Haessdeon Sajeong",
+    "score": 0.0
+  },
+  {
+    "id": 2400,
+    "title": "Ghost Sweeper Mikami",
+    "score": 6.0
+  },
+  {
+    "id": 100765,
+    "title": "GIGANT",
+    "score": 7.5
+  },
+  {
+    "id": 918,
+    "title": "Gintama",
+    "score": 9.0
+  },
+  {
+    "id": 9969,
+    "title": "Gintama'",
+    "score": 8.0
+  },
+  {
+    "id": 15417,
+    "title": "Gintama': Enchousen",
+    "score": 0.0
+  },
+  {
+    "id": 97889,
+    "title": "Gintama.",
+    "score": 0.0
+  },
+  {
+    "id": 100784,
+    "title": "Gintama.: Shirogane no Tamashii-hen",
+    "score": 0.0
+  },
+  {
+    "id": 101925,
+    "title": "Gintama.: Shirogane no Tamashii-hen - Kouhan-sen",
+    "score": 0.0
+  },
+  {
+    "id": 114129,
+    "title": "Gintama: THE FINAL",
+    "score": 0.0
+  },
+  {
+    "id": 20996,
+    "title": "Gintama\u00b0",
+    "score": 9.0
+  },
+  {
+    "id": 108430,
+    "title": "Given",
+    "score": 8.5
+  },
+  {
+    "id": 111734,
+    "title": "Given Movie",
+    "score": 8.0
+  },
+  {
+    "id": 162987,
+    "title": "Given: Hiiragi mix",
+    "score": 0.0
+  },
+  {
+    "id": 103572,
+    "title": "Go-toubun no Hanayome",
+    "score": 8.5
+  },
+  {
+    "id": 100230,
+    "title": "Go-toubun no Hanayome",
+    "score": 8.0
+  },
+  {
+    "id": 131520,
+    "title": "Go-toubun no Hanayome Movie",
+    "score": 8.5
+  },
+  {
+    "id": 109261,
+    "title": "Go-toubun no Hanayome \u222c",
+    "score": 8.5
+  },
+  {
+    "id": 124786,
+    "title": "Godzilla: Singular Point",
+    "score": 6.5
+  },
+  {
+    "id": 101233,
+    "title": "Gokushufudou",
+    "score": 7.5
+  },
+  {
+    "id": 154982,
+    "title": "Gokushufudou Season 2",
+    "score": 7.0
+  },
+  {
+    "id": 99699,
+    "title": "Golden Kamuy",
+    "score": 0.0
+  },
+  {
+    "id": 110355,
+    "title": "Golden Kamuy 3rd Season",
+    "score": 0.0
+  },
+  {
+    "id": 17895,
+    "title": "Golden Time",
+    "score": 2.0
+  },
+  {
+    "id": 86640,
+    "title": "Gosu",
+    "score": 0.0
+  },
+  {
+    "id": 124561,
+    "title": "GOTCHA!",
+    "score": 7.0
+  },
+  {
+    "id": 100922,
+    "title": "Grand Blue",
+    "score": 8.0
+  },
+  {
+    "id": 41425,
+    "title": "Grappler Baki",
+    "score": 8.0
+  },
+  {
+    "id": 110349,
+    "title": "GREAT PRETENDER",
+    "score": 0.0
+  },
+  {
+    "id": 133,
+    "title": "Green Green",
     "score": 1.0
+  },
+  {
+    "id": 245,
+    "title": "GTO",
+    "score": 9.0
+  },
+  {
+    "id": 30336,
+    "title": "GTO",
+    "score": 7.5
+  },
+  {
+    "id": 140467,
+    "title": "Guard Pass",
+    "score": 7.0
+  },
+  {
+    "id": 10793,
+    "title": "Guilty Crown",
+    "score": 7.0
+  },
+  {
+    "id": 105393,
+    "title": "Gwihwanjaui Mabeobeun Teukbyeolhaeya Hamnida",
+    "score": 6.0
+  },
+  {
+    "id": 10271,
+    "title": "Gyakkyou Burai Kaiji: Hakairoku-hen",
+    "score": 8.0
+  },
+  {
+    "id": 3002,
+    "title": "Gyakkyou Burai Kaiji: Ultimate Survivor",
+    "score": 8.0
+  },
+  {
+    "id": 3299,
+    "title": "H2O: FOOTPRINTS IN THE SAND",
+    "score": 7.0
+  },
+  {
+    "id": 121,
+    "title": "Hagane no Renkinjutsushi",
+    "score": 8.0
+  },
+  {
+    "id": 30025,
+    "title": "Hagane no Renkinjutsushi",
+    "score": 9.5
+  },
+  {
+    "id": 5114,
+    "title": "Hagane no Renkinjutsushi: FULLMETAL ALCHEMIST",
+    "score": 10.0
+  },
+  {
+    "id": 21428,
+    "title": "Hai to Gensou no Grimgar",
+    "score": 8.0
+  },
+  {
+    "id": 20464,
+    "title": "Haikyuu!!",
+    "score": 9.0
+  },
+  {
+    "id": 65243,
+    "title": "Haikyuu!!",
+    "score": 9.5
+  },
+  {
+    "id": 20992,
+    "title": "Haikyuu!! 2nd Season",
+    "score": 9.0
+  },
+  {
+    "id": 106625,
+    "title": "Haikyuu!! TO THE TOP",
+    "score": 8.0
+  },
+  {
+    "id": 113538,
+    "title": "Haikyuu!! TO THE TOP 2",
+    "score": 9.0
+  },
+  {
+    "id": 21698,
+    "title": "Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou",
+    "score": 9.0
+  },
+  {
+    "id": 98884,
+    "title": "Haikyuu!!: Sainou to Sense",
+    "score": 8.0
+  },
+  {
+    "id": 264,
+    "title": "Hajime no Ippo: Champion Road",
+    "score": 9.0
+  },
+  {
+    "id": 265,
+    "title": "Hajime no Ippo: Mashiba vs Kimura - Shikei Shikkou",
+    "score": 8.0
+  },
+  {
+    "id": 5258,
+    "title": "Hajime no Ippo: New Challenger",
+    "score": 8.0
+  },
+  {
+    "id": 19647,
+    "title": "Hajime no Ippo: Rising",
+    "score": 8.0
+  },
+  {
+    "id": 263,
+    "title": "Hajime no Ippo: THE FIGHTING!",
+    "score": 8.0
+  },
+  {
+    "id": 20593,
+    "title": "Hanamonogatari",
+    "score": 8.0
+  },
+  {
+    "id": 20575,
+    "title": "Hanayamata",
+    "score": 7.0
+  },
+  {
+    "id": 21626,
+    "title": "Handa-kun",
+    "score": 7.0
+  },
+  {
+    "id": 37760,
+    "title": "Hanma Baki",
+    "score": 7.0
+  },
+  {
+    "id": 86136,
+    "title": "Happiness",
+    "score": 9.0
+  },
+  {
+    "id": 15809,
+    "title": "Hataraku Maou-sama!",
+    "score": 5.0
+  },
+  {
+    "id": 130592,
+    "title": "Hataraku Maou-sama!!",
+    "score": 2.0
+  },
+  {
+    "id": 100977,
+    "title": "Hataraku Saibou",
+    "score": 7.0
+  },
+  {
+    "id": 108631,
+    "title": "Hataraku Saibou!!",
+    "score": 7.0
+  },
+  {
+    "id": 2026,
+    "title": "Hayate no Gotoku!",
+    "score": 6.0
+  },
+  {
+    "id": 4192,
+    "title": "Hayate no Gotoku!!",
+    "score": 6.0
+  },
+  {
+    "id": 119309,
+    "title": "Hazure Hantei kara Hajimatta Cheat Majutsushi Seikatsu",
+    "score": 6.0
+  },
+  {
+    "id": 129883,
+    "title": "Hell Mode: Yarikomi Suki no Gamer wa Haisettei no Isekai de Musou Suru",
+    "score": 7.0
+  },
+  {
+    "id": 270,
+    "title": "HELLSING",
+    "score": 8.0
+  },
+  {
+    "id": 777,
+    "title": "HELLSING OVA",
+    "score": 9.0
+  },
+  {
+    "id": 118662,
+    "title": "HENTAI",
+    "score": 6.0
+  },
+  {
+    "id": 379,
+    "title": "Heppoko Jikken Animation Excel Saga",
+    "score": 5.0
+  },
+  {
+    "id": 116310,
+    "title": "Heroine wa Zetsubou Shimashita.",
+    "score": 7.0
+  },
+  {
+    "id": 20912,
+    "title": "Hibike! Euphonium",
+    "score": 7.0
+  },
+  {
+    "id": 21460,
+    "title": "Hibike! Euphonium 2",
+    "score": 7.0
+  },
+  {
+    "id": 1852,
+    "title": "Hidamari Sketch",
+    "score": 8.0
+  },
+  {
+    "id": 3604,
+    "title": "Hidamari Sketch x 365",
+    "score": 8.0
+  },
+  {
+    "id": 7062,
+    "title": "Hidamari Sketch x \u2606\u2606\u2606",
+    "score": 8.0
+  },
+  {
+    "id": 5630,
+    "title": "Higashi no Eden",
+    "score": 8.0
+  },
+  {
+    "id": 156040,
+    "title": "Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu.",
+    "score": 7.0
+  },
+  {
+    "id": 934,
+    "title": "Higurashi no Naku Koro ni",
+    "score": 7.5
+  },
+  {
+    "id": 1889,
+    "title": "Higurashi no Naku Koro ni Kai",
+    "score": 8.0
+  },
+  {
+    "id": 38204,
+    "title": "Hikari no Machi",
+    "score": 8.0
+  },
+  {
+    "id": 20634,
+    "title": "Himegoto",
+    "score": 4.0
+  },
+  {
+    "id": 20987,
+    "title": "Himouto! Umaru-chan",
+    "score": 7.0
+  },
+  {
+    "id": 98572,
+    "title": "Himouto! Umaru-chan R",
+    "score": 6.0
+  },
+  {
+    "id": 100077,
+    "title": "Hinamatsuri",
+    "score": 8.0
+  },
+  {
+    "id": 100990,
+    "title": "Hinomaru-Zumou",
+    "score": 7.0
+  },
+  {
+    "id": 85612,
+    "title": "Hinomaru-Zumou",
+    "score": 7.0
+  },
+  {
+    "id": 152122,
+    "title": "Hirano to Kagiura",
+    "score": 5.0
+  },
+  {
+    "id": 132288,
+    "title": "Hirayasumi",
+    "score": 9.5
+  },
+  {
+    "id": 99140,
+    "title": "Hitori Koukan Nikki",
+    "score": 9.0
+  },
+  {
+    "id": 107540,
+    "title": "Hitoribocchi no Isekai Kouryaku",
+    "score": 7.0
+  },
+  {
+    "id": 101386,
+    "title": "Hitoribocchi no \u25cb\u25cb Seikatsu",
+    "score": 7.0
+  },
+  {
+    "id": 20719,
+    "title": "Hitsugi no Chaika: AVENGING BATTLE",
+    "score": 6.0
+  },
+  {
+    "id": 142936,
+    "title": "Hoegwiui Jeonseol",
+    "score": 3.0
+  },
+  {
+    "id": 108268,
+    "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen",
+    "score": 9.0
+  },
+  {
+    "id": 113693,
+    "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 2nd Season",
+    "score": 9.0
+  },
+  {
+    "id": 121176,
+    "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 3rd Season",
+    "score": 9.0
+  },
+  {
+    "id": 124080,
+    "title": "Horimiya",
+    "score": 9.0
+  },
+  {
+    "id": 163132,
+    "title": "Horimiya: piece",
+    "score": 9.0
+  },
+  {
+    "id": 51467,
+    "title": "Hoshi Mamoru Inu",
+    "score": 9.0
+  },
+  {
+    "id": 2390,
+    "title": "Hoshi no Kirby",
+    "score": 4.0
+  },
+  {
+    "id": 74489,
+    "title": "Houseki no Kuni",
+    "score": 0.0
+  },
+  {
+    "id": 431,
+    "title": "Howl no Ugoku Shiro",
+    "score": 8.0
+  },
+  {
+    "id": 136,
+    "title": "HUNTER\u00d7HUNTER",
+    "score": 8.0
+  },
+  {
+    "id": 30026,
+    "title": "HUNTER\u00d7HUNTER",
+    "score": 9.0
+  },
+  {
+    "id": 11061,
+    "title": "HUNTER\u00d7HUNTER (2011)",
+    "score": 10.0
+  },
+  {
+    "id": 139,
+    "title": "HUNTER\u00d7HUNTER: Greed Island Final",
+    "score": 8.0
+  },
+  {
+    "id": 86964,
+    "title": "Hurejasik",
+    "score": 0.0
+  },
+  {
+    "id": 12189,
+    "title": "Hyouka",
+    "score": 0.0
+  },
+  {
+    "id": 44440,
+    "title": "I Am a Hero",
+    "score": 9.5
+  },
+  {
+    "id": 130429,
+    "title": "Ibeon Saengeun Gajuga Doegetseumnida",
+    "score": 9.0
+  },
+  {
+    "id": 488,
+    "title": "Ichigo Mashimaro",
+    "score": 8.0
+  },
+  {
+    "id": 156656,
+    "title": "Ichinose-ke no Taizai",
+    "score": 7.0
+  },
+  {
+    "id": 114605,
+    "title": "Igye Geomwang Saengjongi",
+    "score": 7.0
+  },
+  {
+    "id": 110030,
+    "title": "Ijimeru Yabai Yatsu",
+    "score": 6.0
+  },
+  {
+    "id": 120697,
+    "title": "Ijiranaide, Nagatoro-san",
+    "score": 7.0
+  },
+  {
+    "id": 100664,
+    "title": "Ijiranaide, Nagatoro-san",
+    "score": 8.0
+  },
+  {
+    "id": 140596,
+    "title": "Ijiranaide, Nagatoro-san 2nd Attack",
+    "score": 0.0
+  },
+  {
+    "id": 101586,
+    "title": "Ijousha no Ai",
+    "score": 7.0
+  },
+  {
+    "id": 257,
+    "title": "Ikkitousen",
+    "score": 6.0
+  },
+  {
+    "id": 63031,
+    "title": "Imawa no Kuni no Alice",
+    "score": 8.0
+  },
+  {
+    "id": 125177,
+    "title": "Imawa no Kuni no Alice RETRY",
+    "score": 8.0
+  },
+  {
+    "id": 86855,
+    "title": "Infection",
+    "score": 6.0
+  },
+  {
+    "id": 146346,
+    "title": "Inu ni Nattara Suki na Hito ni Hirowareta.",
+    "score": 8.0
+  },
+  {
+    "id": 122364,
+    "title": "Inu ni Nattara Suki na Hito ni Hirowareta.",
+    "score": 8.0
+  },
+  {
+    "id": 116700,
+    "title": "Inu to Neko Docchi mo Katteru to Mainichi Tanoshii",
+    "score": 8.0
+  },
+  {
+    "id": 249,
+    "title": "Inuyasha",
+    "score": 4.0
+  },
+  {
+    "id": 97922,
+    "title": "Inuyashiki",
+    "score": 8.0
+  },
+  {
+    "id": 103738,
+    "title": "Isekai de Kojiin wo Hiraita kedo, Naze ka Darehitori Sudatou to Shinai Ken",
+    "score": 5.0
+  },
+  {
+    "id": 152072,
+    "title": "Isekai de Mofumofu Nadenade Suru Tame ni Ganbattemasu.",
+    "score": 5.0
+  },
+  {
+    "id": 109235,
+    "title": "Isekai de Saikyou Maou no Kodomo-tachi 10-nin no Mama ni Nacchaimashita.",
+    "score": 6.0
+  },
+  {
+    "id": 102044,
+    "title": "Isekai de Saikyou no Tsue ni Tensei shita Ore ga Iyagaru Shoujo wo Muriyari Mahou Shoujo ni P suru!",
+    "score": 5.0
+  },
+  {
+    "id": 142103,
+    "title": "Isekai Furin \u2161: Michibika Reshi Hitozumatachi to Bukiyo Tensei Yuusha",
+    "score": 4.0
+  },
+  {
+    "id": 130942,
+    "title": "Isekai Furin: Maou Toubatsu kara Juunen, Tsuma to wa Resu no Moto Yuusha to, Otto wo Nakushita Onna Senshi",
+    "score": 7.0
+  },
+  {
+    "id": 128906,
+    "title": "Isekai Kuimetsu no Same",
+    "score": 6.0
+  },
+  {
+    "id": 117448,
+    "title": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu \u03a9",
+    "score": 2.0
+  },
+  {
+    "id": 122363,
+    "title": "Isekai Mokushiroku Mynoghra: Hametsu no Bunmei de Hajimeru Sekai Seifuku",
+    "score": 6.0
+  },
+  {
+    "id": 100456,
+    "title": "Isekai Nonbiri Nouka",
+    "score": 7.0
+  },
+  {
+    "id": 115042,
+    "title": "Isekai NTR: Shinyuu no Onna wo Saikyou Skill de Otosu Houhou",
+    "score": 6.0
+  },
+  {
+    "id": 152137,
+    "title": "Isekai Shikkaku",
+    "score": 0.0
+  },
+  {
+    "id": 112253,
+    "title": "Isekai Shikkaku",
+    "score": 8.5
+  },
+  {
+    "id": 140754,
+    "title": "Isekai Shoukan wa Nidome desu",
+    "score": 3.0
+  },
+  {
+    "id": 98491,
+    "title": "Isekai wa Smartphone to Tomo ni.",
+    "score": 5.0
+  },
+  {
+    "id": 147571,
+    "title": "Isekai wa Smartphone to Tomo ni. 2",
+    "score": 5.0
+  },
+  {
+    "id": 158459,
+    "title": "Isekai Walking",
+    "score": 5.0
+  },
+  {
+    "id": 106479,
+    "title": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.",
+    "score": 7.0
+  },
+  {
+    "id": 116867,
+    "title": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. 2",
+    "score": 6.0
+  },
+  {
+    "id": 119257,
+    "title": "Jeonjijeok Dokja Sijeom",
+    "score": 9.0
+  },
+  {
+    "id": 153360,
+    "title": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou",
+    "score": 7.0
+  },
+  {
+    "id": 2012,
+    "title": "Jigoku Sensei Nube",
+    "score": 7.0
+  },
+  {
+    "id": 128893,
+    "title": "Jigokuraku",
+    "score": 8.0
+  },
+  {
+    "id": 100994,
+    "title": "Jigokuraku",
+    "score": 9.0
+  },
+  {
+    "id": 150890,
+    "title": "Jimoto ni Kaettekitara Osananajimi ga Kowareteta",
+    "score": 7.0
+  },
+  {
+    "id": 101515,
+    "title": "Jinmen",
+    "score": 6.0
+  },
+  {
+    "id": 146532,
+    "title": "Jinsei 2-kaime wa Yandere Kareshi wo Amayakashite Happy End ni Narimasu!!",
+    "score": 5.0
+  },
+  {
+    "id": 154391,
+    "title": "Jitsu wa Ore, Saikyou Deshita?",
+    "score": 7.0
+  },
+  {
+    "id": 14719,
+    "title": "JoJo no Kimyou na Bouken (TV)",
+    "score": 8.0
+  },
+  {
+    "id": 138070,
+    "title": "JoJo no Kimyou na Bouken: Crazy Diamond no Akuryouteki Shitsuren",
+    "score": 7.0
+  },
+  {
+    "id": 21450,
+    "title": "JoJo no Kimyou na Bouken: Diamond wa Kudakenai",
+    "score": 8.0
+  },
+  {
+    "id": 33006,
+    "title": "JoJo no Kimyou na Bouken: Diamond wa Kudakenai",
+    "score": 9.0
+  },
+  {
+    "id": 102883,
+    "title": "JoJo no Kimyou na Bouken: Ougon no Kaze",
+    "score": 8.0
+  },
+  {
+    "id": 33008,
+    "title": "JoJo no Kimyou na Bouken: Ougon no Kaze",
+    "score": 7.0
+  },
+  {
+    "id": 31630,
+    "title": "JoJo no Kimyou na Bouken: Sentou Chouryuu",
+    "score": 7.0
+  },
+  {
+    "id": 20474,
+    "title": "JoJo no Kimyou na Bouken: Stardust Crusaders",
+    "score": 8.0
+  },
+  {
+    "id": 30872,
+    "title": "JoJo no Kimyou na Bouken: Stardust Crusaders",
+    "score": 8.0
+  },
+  {
+    "id": 20799,
+    "title": "JoJo no Kimyou na Bouken: Stardust Crusaders - Egypt-hen",
+    "score": 8.0
+  },
+  {
+    "id": 31706,
+    "title": "JoJo no Kimyou na Bouken: Steel Ball Run",
+    "score": 9.5
+  },
+  {
+    "id": 131942,
+    "title": "JoJo no Kimyou na Bouken: Stone Ocean",
+    "score": 0.0
+  },
+  {
+    "id": 33009,
+    "title": "JoJo no Kimyou na Bouken: Stone Ocean",
+    "score": 8.0
+  },
+  {
+    "id": 146722,
+    "title": "JoJo no Kimyou na Bouken: Stone Ocean Part 2",
+    "score": 0.0
+  },
+  {
+    "id": 123261,
+    "title": "Joou Heika no Isekai Strategy",
+    "score": 3.0
+  },
+  {
+    "id": 12413,
+    "title": "Jormungand",
+    "score": 8.0
+  },
+  {
+    "id": 13331,
+    "title": "Jormungand: PERFECT ORDER",
+    "score": 8.0
+  },
+  {
+    "id": 113415,
+    "title": "Jujutsu Kaisen",
+    "score": 8.0
+  },
+  {
+    "id": 101517,
+    "title": "Jujutsu Kaisen",
+    "score": 9.0
+  },
+  {
+    "id": 131573,
+    "title": "Jujutsu Kaisen 0",
+    "score": 9.0
+  },
+  {
+    "id": 105469,
+    "title": "Jujutsu Kaisen 0: Tokyo Toritsu Jujutsu Koutou Senmon Gakkou",
+    "score": 8.0
+  },
+  {
+    "id": 145064,
+    "title": "Jujutsu Kaisen 2nd Season",
+    "score": 8.0
+  },
+  {
+    "id": 97553,
+    "title": "Jumyou wo Kaitotte Moratta. Ichinen ni Tsuki, Ichimanen de.",
+    "score": 0.0
+  },
+  {
+    "id": 116671,
+    "title": "Juujika no Rokunin",
+    "score": 3.0
+  },
+  {
+    "id": 98443,
+    "title": "Juuni Taisen",
+    "score": 6.0
+  },
+  {
+    "id": 5680,
+    "title": "K-ON!",
+    "score": 9.0
+  },
+  {
+    "id": 9617,
+    "title": "K-ON! Movie",
+    "score": 9.0
+  },
+  {
+    "id": 7791,
+    "title": "K-ON!!",
+    "score": 9.0
+  },
+  {
+    "id": 140482,
+    "title": "Kabushiki Gaisha Magi Lumiere",
+    "score": 0.0
+  },
+  {
+    "id": 122320,
+    "title": "Kage no Eiyuu no Nichijou Tan: Yuusha no Ura de Anyaku Shiteita Saikyou no Agent. Soshiki ga Kaitai Sareta no de, Shoutai Kakushite Hitonami no Nichijou wo Ouka Suru",
+    "score": 7.0
+  },
+  {
+    "id": 106758,
+    "title": "Kage no Jitsuryokusha ni Naritakute!",
+    "score": 7.0
+  },
+  {
+    "id": 101921,
+    "title": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen",
+    "score": 8.5
+  },
+  {
+    "id": 125367,
+    "title": "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+    "score": 9.0
+  },
+  {
+    "id": 112641,
+    "title": "Kaguya-sama wa Kokurasetai?: Tensaitachi no Renai Zunousen",
+    "score": 8.0
+  },
+  {
+    "id": 3701,
+    "title": "Kaiba",
+    "score": 0.0
+  },
+  {
+    "id": 7054,
+    "title": "Kaichou wa Maid-sama!",
+    "score": 7.0
+  },
+  {
+    "id": 113425,
+    "title": "Kaifuku Jutsushi no Yarinaoshi",
+    "score": 8.0
+  },
+  {
+    "id": 100476,
+    "title": "Kaifuku Jutsushi no Yarinaoshi",
+    "score": 8.0
+  },
+  {
+    "id": 120760,
+    "title": "Kaijuu 8-gou",
+    "score": 7.0
+  },
+  {
+    "id": 113311,
+    "title": "Kakushigoto",
+    "score": 0.0
+  },
+  {
+    "id": 148048,
+    "title": "Kaminaki Sekai no Kamisama Katsudou",
+    "score": 3.0
+  },
+  {
+    "id": 54561,
+    "title": "Kamisama no Iutoori",
+    "score": 8.0
+  },
+  {
+    "id": 101793,
+    "title": "Kamitachi ni Hirowareta Otoko",
+    "score": 6.0
+  },
+  {
+    "id": 158926,
+    "title": "Kamonohashi Ron no Kindan Suiri",
+    "score": 5.0
+  },
+  {
+    "id": 151847,
+    "title": "Kanojo ga Koushaku-tei ni Itta Riyuu",
+    "score": 8.0
+  },
+  {
+    "id": 99943,
+    "title": "Kanojo, Okarishimasu",
+    "score": 3.5
+  },
+  {
+    "id": 3503,
+    "title": "Kanokon",
+    "score": 5.5
+  },
+  {
+    "id": 1530,
+    "title": "Kanon (2006)",
+    "score": 7.0
+  },
+  {
+    "id": 145,
+    "title": "Kareshi Kanojo no Jijou",
+    "score": 7.0
+  },
+  {
+    "id": 85198,
+    "title": "Kasane",
+    "score": 7.0
+  },
+  {
+    "id": 6594,
+    "title": "Katanagatari",
+    "score": 9.0
+  },
+  {
+    "id": 127911,
+    "title": "Kawaii dake ja Nai Shikimori-san",
+    "score": 6.0
+  },
+  {
+    "id": 110974,
+    "title": "Kekkaishi e no Tensei",
+    "score": 5.0
+  },
+  {
+    "id": 103636,
+    "title": "Kemokko Dobutsuen!",
+    "score": 8.0
+  },
+  {
+    "id": 119056,
+    "title": "Kenja no Deshi wo Nanoru Kenja",
+    "score": 6.0
+  },
+  {
+    "id": 97529,
+    "title": "Kenja no Deshi wo Nanoru Kenja THE COMIC",
+    "score": 7.0
+  },
+  {
+    "id": 33,
+    "title": "Kenpuu Denki Berserk",
+    "score": 9.0
+  },
+  {
+    "id": 100835,
+    "title": "Kenshi wo Mezashite Nyuugaku Shitanoni Mahou Tekisei 9999 Nan desu kedo!?",
+    "score": 0.0
+  },
+  {
+    "id": 2581,
+    "title": "Kidou Senshi Gundam 00",
+    "score": 8.5
+  },
+  {
+    "id": 3927,
+    "title": "Kidou Senshi Gundam 00 2nd Season",
+    "score": 8.5
+  },
+  {
+    "id": 139274,
+    "title": "Kidou Senshi Gundam: Suisei no Majo",
+    "score": 9.0
+  },
+  {
+    "id": 146922,
+    "title": "Kidou Senshi Gundam: Suisei no Majo - PROLOGUE",
+    "score": 9.0
+  },
+  {
+    "id": 155158,
+    "title": "Kidou Senshi Gundam: Suisei no Majo Season 2",
+    "score": 8.5
+  },
+  {
+    "id": 21268,
+    "title": "Kidou Senshi Gundam: Tekketsu no Orphans",
+    "score": 9.0
+  },
+  {
+    "id": 21749,
+    "title": "Kidou Senshi Gundam: Tekketsu no Orphans 2",
+    "score": 9.0
+  },
+  {
+    "id": 52,
+    "title": "Kidou Tenshi Angelic Layer",
+    "score": 6.0
+  },
+  {
+    "id": 18679,
+    "title": "Kill la Kill",
+    "score": 9.0
+  },
+  {
+    "id": 101922,
+    "title": "Kimetsu no Yaiba",
+    "score": 8.0
+  },
+  {
+    "id": 87216,
+    "title": "Kimetsu no Yaiba",
+    "score": 7.0
+  },
+  {
+    "id": 145139,
+    "title": "Kimetsu no Yaiba: Katanakaji no Sato-hen",
+    "score": 7.0
+  },
+  {
+    "id": 112151,
+    "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
+    "score": 8.0
+  },
+  {
+    "id": 129874,
+    "title": "Kimetsu no Yaiba: Mugen Ressha-hen (TV)",
+    "score": 8.0
+  },
+  {
+    "id": 142329,
+    "title": "Kimetsu no Yaiba: Yuukaku-hen",
+    "score": 8.0
+  },
+  {
+    "id": 102545,
+    "title": "Kimi ni Aisarete Itakatta",
+    "score": 6.0
+  },
+  {
+    "id": 6045,
+    "title": "Kimi ni Todoke",
+    "score": 6.0
+  },
+  {
+    "id": 9656,
+    "title": "Kimi ni Todoke 2ND SEASON",
+    "score": 6.0
+  },
+  {
+    "id": 21519,
+    "title": "Kimi no Na wa.",
+    "score": 8.0
+  },
+  {
+    "id": 111477,
+    "title": "Kimi no Okaa-san wo Boku ni Kudasai!",
+    "score": 8.5
+  },
+  {
+    "id": 20623,
+    "title": "Kiseijuu: Sei no Kakuritsu",
+    "score": 9.0
+  },
+  {
+    "id": 7593,
+    "title": "kiss\u00d7sis (TV)",
+    "score": 9.0
+  },
+  {
+    "id": 152013,
+    "title": "Kiwameta Heal ga Subete wo Iyasu!: Mura de Muyou ni Natta Boku wa, Hirotta Gomi wo Geki-Rare Item ni Shuuzen shite Nariagaru!",
+    "score": 4.5
+  },
+  {
+    "id": 143701,
+    "title": "Kizumonogatari",
+    "score": 8.5
+  },
+  {
+    "id": 9260,
+    "title": "Kizumonogatari I: Tekketsu-hen",
+    "score": 9.0
+  },
+  {
+    "id": 21399,
+    "title": "Kizumonogatari II: Nekketsu-hen",
+    "score": 9.0
+  },
+  {
+    "id": 21400,
+    "title": "Kizumonogatari III: Reiketsu-hen",
+    "score": 9.0
+  },
+  {
+    "id": 21776,
+    "title": "Kobayashi-san Chi no Maidragon",
+    "score": 9.0
+  },
+  {
+    "id": 107717,
+    "title": "Kobayashi-san Chi no Maidragon S",
+    "score": 9.0
+  },
+  {
+    "id": 20954,
+    "title": "Koe no Katachi",
+    "score": 9.0
+  },
+  {
+    "id": 85135,
+    "title": "Koe no Katachi",
+    "score": 9.0
+  },
+  {
+    "id": 37375,
+    "title": "Kokou no Hito",
+    "score": 0.0
+  },
+  {
+    "id": 150131,
+    "title": "Kono Gomi wo Nanto Yobu",
+    "score": 5.0
+  },
+  {
+    "id": 141487,
+    "title": "Kono Ko Shirimasen ka?",
+    "score": 8.5
+  },
+  {
+    "id": 103302,
+    "title": "Kono Oto Tomare!",
+    "score": 8.0
+  },
+  {
+    "id": 108891,
+    "title": "Kono Oto Tomare! 2",
+    "score": 9.0
+  },
+  {
+    "id": 150075,
+    "title": "Kono Subarashii Sekai ni Bakuen wo!",
+    "score": 8.0
+  },
+  {
+    "id": 21202,
+    "title": "Kono Subarashii Sekai ni Shukufuku wo!",
+    "score": 9.0
+  },
+  {
+    "id": 21699,
+    "title": "Kono Subarashii Sekai ni Shukufuku wo! 2",
+    "score": 8.0
+  },
+  {
+    "id": 102976,
+    "title": "Kono Subarashii Sekai ni Shukufuku wo! Kurenai Densetsu",
+    "score": 0.0
+  },
+  {
+    "id": 151252,
+    "title": "Koori Zokusei Danshi to Cool na Douryou Joshi",
+    "score": 5.0
+  },
+  {
+    "id": 412,
+    "title": "Kore ga Watashi no Goshujin-sama",
+    "score": 7.0
+  },
+  {
+    "id": 8841,
+    "title": "Kore wa Zombie desu ka?",
+    "score": 7.0
+  },
+  {
+    "id": 10790,
+    "title": "Kore wa Zombie desu ka? of the Dead",
+    "score": 7.0
+  },
+  {
+    "id": 139589,
+    "title": "Kotarou wa Hitorigurashi",
+    "score": 8.0
+  },
+  {
+    "id": 237,
+    "title": "Koukyoushihen Eureka Seven",
+    "score": 9.0
+  },
+  {
+    "id": 114340,
+    "title": "Kuma Kuma Kuma Bear",
+    "score": 7.0
+  },
+  {
+    "id": 101449,
+    "title": "Kuma Kuma Kuma Bear",
+    "score": 6.0
+  },
+  {
+    "id": 127550,
+    "title": "Kuma Kuma Kuma Bear Punch!",
+    "score": 7.0
+  },
+  {
+    "id": 103632,
+    "title": "Kumo desu ga, Nani ka?",
+    "score": 8.0
+  },
+  {
+    "id": 86952,
+    "title": "Kumo desu ga, Nani ka?",
+    "score": 8.0
+  },
+  {
+    "id": 86406,
+    "title": "Kumo desu ga, Nani ka?",
+    "score": 9.0
+  },
+  {
+    "id": 8129,
+    "title": "Kuragehime",
+    "score": 9.0
+  },
+  {
+    "id": 101746,
+    "title": "Kuro no Shoukanshi",
+    "score": 7.0
+  },
+  {
+    "id": 11771,
+    "title": "Kuroko no Basket",
+    "score": 6.0
+  },
+  {
+    "id": 16894,
+    "title": "Kuroko no Basket 2nd SEASON",
+    "score": 7.0
+  },
+  {
+    "id": 20725,
+    "title": "Kuroko no Basket 3rd SEASON",
+    "score": 7.0
+  },
+  {
+    "id": 161645,
+    "title": "Kusuriya no Hitorigoto",
+    "score": 9.5
+  },
+  {
+    "id": 126791,
+    "title": "Kyuukyoku Shinka Shita Full Dive RPG ga Genjitsu yori mo Kusogee Dattara",
+    "score": 1.0
+  },
+  {
+    "id": 7148,
+    "title": "Ladies versus Butlers!",
+    "score": 4.0
+  },
+  {
+    "id": 148465,
+    "title": "Level 1 dakedo Unique Skill de Saikyou desu",
+    "score": 3.0
+  },
+  {
+    "id": 21858,
+    "title": "Little Witch Academia (TV)",
+    "score": 7.0
+  },
+  {
+    "id": 110999,
+    "title": "Live Dungeon!",
+    "score": 6.0
+  },
+  {
+    "id": 17265,
+    "title": "Log Horizon",
+    "score": 8.0
+  },
+  {
+    "id": 20671,
+    "title": "Log Horizon 2",
+    "score": 8.0
+  },
+  {
+    "id": 114862,
+    "title": "Log Horizon: Entaku Houkai",
+    "score": 0.0
+  },
+  {
+    "id": 106918,
+    "title": "Lord El-Melloi II-sei no Jikenbo: \"Rail Zeppelin\" Grace note",
+    "score": 8.5
+  },
+  {
+    "id": 189,
+    "title": "Love Hina",
+    "score": 7.0
+  },
+  {
+    "id": 30016,
+    "title": "Love Hina",
+    "score": 9.0
+  },
+  {
+    "id": 2034,
+    "title": "Lovely\u2605Complex",
+    "score": 7.0
+  },
+  {
+    "id": 1887,
+    "title": "Lucky\u2606Star",
+    "score": 9.0
+  },
+  {
+    "id": 143270,
+    "title": "Lycoris Recoil",
+    "score": 7.0
+  },
+  {
+    "id": 1397,
+    "title": "Macross 7",
+    "score": 8.0
+  },
+  {
+    "id": 3572,
+    "title": "Macross Frontier",
+    "score": 8.0
+  },
+  {
+    "id": 97986,
+    "title": "Made in Abyss",
+    "score": 10.0
+  },
+  {
+    "id": 100643,
+    "title": "Made in Abyss: Fukaki Tamashii no Reimei",
+    "score": 8.0
+  },
+  {
+    "id": 114745,
+    "title": "Made in Abyss: Retsujitsu no Ougonkyou",
+    "score": 0.0
+  },
+  {
+    "id": 44790,
+    "title": "Magi",
+    "score": 9.0
+  },
+  {
+    "id": 18115,
+    "title": "Magi: The kingdom of magic",
+    "score": 7.0
+  },
+  {
+    "id": 14513,
+    "title": "Magi: The labyrinth of magic",
+    "score": 7.0
+  },
+  {
+    "id": 104051,
+    "title": "Magia Record: Mahou Shoujo Madoka\u2606Magica Gaiden",
+    "score": 0.0
+  },
+  {
+    "id": 117002,
+    "title": "Magia Record: Mahou Shoujo Madoka\u2606Magica Gaiden 2nd SEASON - Kakusei Zenya",
+    "score": 7.0
+  },
+  {
+    "id": 136080,
+    "title": "Magia Record: Mahou Shoujo Madoka\u2606Magica Gaiden Final SEASON - Asaki Yume no Akatsuki",
+    "score": 7.0
+  },
+  {
+    "id": 435,
+    "title": "Magic Knight Rayearth",
+    "score": 8.0
+  },
+  {
+    "id": 1563,
+    "title": "Magic Knight Rayearth II",
+    "score": 8.0
+  },
+  {
+    "id": 157,
+    "title": "Mahou Sensei Negima!",
+    "score": 7.0
+  },
+  {
+    "id": 30015,
+    "title": "Mahou Sensei Negima!",
+    "score": 8.0
+  },
+  {
+    "id": 91247,
+    "title": "Mahou Shoujo Homura\u2605Tamura: Heikou Sekai ga Itsumo Heikou de Aru to wa Kagiranai no da.",
+    "score": 7.0
+  },
+  {
+    "id": 54295,
+    "title": "Mahou Shoujo Kazumi\u2605Magica: The Innocent Malice",
+    "score": 9.0
+  },
+  {
+    "id": 86552,
+    "title": "Mahou Shoujo Madoka\u2605Magica: Homura Revenge!",
+    "score": 4.0
+  },
+  {
+    "id": 74319,
+    "title": "Mahou Shoujo Madoka\u2605Magica: The different story",
+    "score": 7.0
+  },
+  {
+    "id": 9756,
+    "title": "Mahou Shoujo Madoka\u2606Magica",
+    "score": 10.0
+  },
+  {
+    "id": 54457,
+    "title": "Mahou Shoujo Madoka\u2606Magica",
+    "score": 7.0
+  },
+  {
+    "id": 11981,
+    "title": "Mahou Shoujo Madoka\u2606Magica: Hangyaku no Monogatari",
+    "score": 10.0
+  },
+  {
+    "id": 86410,
+    "title": "Mahou Shoujo Madoka\u2606Magica: Majuu-hen",
+    "score": 8.0
+  },
+  {
+    "id": 133007,
+    "title": "Mahou Shoujo Madoka\u2606Magica: Walpurgis no Kaiten",
+    "score": 0.0
+  },
+  {
+    "id": 162780,
+    "title": "Mahou Shoujo ni Akogarete",
+    "score": 8.0
+  },
+  {
+    "id": 109017,
+    "title": "Mahou Shoujo ni Akogarete",
+    "score": 7.5
+  },
+  {
+    "id": 70175,
+    "title": "Mahou Shoujo of the End",
+    "score": 7.0
+  },
+  {
+    "id": 54456,
+    "title": "Mahou Shoujo Oriko\u2605Magica",
+    "score": 5.0
+  },
+  {
+    "id": 100010,
+    "title": "Mahou Shoujo Site",
+    "score": 6.0
+  },
+  {
+    "id": 86388,
+    "title": "Mahou Shoujo Suzune\u2605Magica",
+    "score": 0.0
+  },
+  {
+    "id": 98436,
+    "title": "Mahoutsukai no Yome",
+    "score": 8.5
+  },
+  {
+    "id": 85435,
+    "title": "Mahoutsukai no Yome",
+    "score": 0.0
+  },
+  {
+    "id": 154364,
+    "title": "Mahoutsukai no Yome SEASON 2",
+    "score": 9.0
+  },
+  {
+    "id": 166452,
+    "title": "Mahoutsukai no Yome SEASON 2 Part 2",
+    "score": 8.5
+  },
+  {
+    "id": 21688,
+    "title": "Mahoutsukai no Yome: Hoshi Matsu Hito",
+    "score": 8.0
+  },
+  {
+    "id": 107693,
+    "title": "Mairimashita! Iruma-kun",
+    "score": 7.0
+  },
+  {
+    "id": 99324,
+    "title": "Mairimashita! Iruma-kun",
+    "score": 8.5
+  },
+  {
+    "id": 116338,
+    "title": "Mairimashita! Iruma-kun 2",
+    "score": 0.0
+  },
+  {
+    "id": 124409,
+    "title": "Majo Taisen: 32-nin no Isai no Majo wa Koroshiau",
+    "score": 6.0
+  },
+  {
+    "id": 153818,
+    "title": "Majo to Yajuu",
+    "score": 6.0
+  },
+  {
+    "id": 1017,
+    "title": "Majutsushi Orphen",
+    "score": 7.0
+  },
+  {
+    "id": 1018,
+    "title": "Majutsushi Orphen: Revenge",
+    "score": 6.0
+  },
+  {
+    "id": 125636,
+    "title": "Mallep Yeongungnim Kkeseo Gwihwan Hasinda!",
+    "score": 6.0
+  },
+  {
+    "id": 121890,
+    "title": "Maou Gun Saikyou no Majutsushi wa Ningen datta",
+    "score": 1.0
+  },
+  {
+    "id": 101722,
+    "title": "Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii?",
+    "score": 6.0
+  },
+  {
+    "id": 5030,
+    "title": "Maria\u2020Holic",
+    "score": 8.0
+  },
+  {
+    "id": 9712,
+    "title": "Maria\u2020Holic Alive",
+    "score": 8.0
+  },
+  {
+    "id": 334,
+    "title": "Marmalade Boy",
+    "score": 7.0
+  },
+  {
+    "id": 86690,
+    "title": "Masamune-kun no Revenge",
+    "score": 4.0
+  },
+  {
+    "id": 76716,
+    "title": "Masamune-kun no Revenge",
+    "score": 4.0
+  },
+  {
+    "id": 146953,
+    "title": "Masamune-kun no Revenge R",
+    "score": 6.0
+  },
+  {
+    "id": 110022,
+    "title": "Maseki Gourmet: Mamono no Chikara wo Tabeta Ore wa Saikyou!",
+    "score": 0.0
+  },
+  {
+    "id": 122348,
+    "title": "Mashiro no Oto",
+    "score": 8.0
+  },
+  {
+    "id": 151801,
+    "title": "MASHLE",
+    "score": 6.0
+  },
+  {
+    "id": 114960,
+    "title": "MASHLE",
+    "score": 8.0
+  },
+  {
+    "id": 106064,
+    "title": "Mato Seihei no Slave",
+    "score": 0.0
+  },
+  {
+    "id": 10721,
+    "title": "Mawaru Penguindrum",
+    "score": 8.0
+  },
+  {
+    "id": 165171,
+    "title": "Medalist",
+    "score": 0.0
+  },
+  {
+    "id": 118371,
+    "title": "Medalist",
+    "score": 0.0
+  },
+  {
+    "id": 1138,
+    "title": "Medarot",
+    "score": 6.0
+  },
+  {
+    "id": 235,
+    "title": "Meitantei Conan",
+    "score": 0.0
+  },
+  {
+    "id": 162985,
+    "title": "Metallic Rouge",
+    "score": 0.0
+  },
+  {
+    "id": 131083,
+    "title": "Mieruko-chan",
+    "score": 7.0
+  },
+  {
+    "id": 20483,
+    "title": "Mikakunin de Shinkoukei",
+    "score": 8.0
+  },
+  {
+    "id": 10620,
+    "title": "Mirai Nikki",
+    "score": 6.0
+  },
+  {
+    "id": 30584,
+    "title": "Mirai Nikki",
+    "score": 7.0
+  },
+  {
+    "id": 138648,
+    "title": "Mishiranu Joshikousei ni Kankinsareta Mangaka no Hanashi",
+    "score": 0.0
+  },
+  {
+    "id": 7627,
+    "title": "Mitsudomoe",
+    "score": 7.0
+  },
+  {
+    "id": 21507,
+    "title": "Mob Psycho 100",
+    "score": 8.0
+  },
+  {
+    "id": 101338,
+    "title": "Mob Psycho 100 II",
+    "score": 8.0
+  },
+  {
+    "id": 140439,
+    "title": "Mob Psycho 100 III",
+    "score": 9.0
+  },
+  {
+    "id": 129117,
+    "title": "Mokushiroku no Yonkishi",
+    "score": 3.0
+  },
+  {
+    "id": 17074,
+    "title": "Monogatari Series: Second Season",
+    "score": 9.0
+  },
+  {
+    "id": 164,
+    "title": "Mononoke-hime",
+    "score": 8.0
+  },
+  {
+    "id": 19,
+    "title": "MONSTER",
+    "score": 10.0
+  },
+  {
+    "id": 30001,
+    "title": "MONSTER",
+    "score": 10.0
+  },
+  {
+    "id": 21093,
+    "title": "Monster Musume no Iru Nichijou",
+    "score": 8.0
+  },
+  {
+    "id": 116955,
+    "title": "Motokano no Otouto ga Kawaiitte Hanashi",
+    "score": 6.5
+  },
+  {
+    "id": 49844,
+    "title": "Mouryou no Yurikago",
+    "score": 7.0
+  },
+  {
+    "id": 323,
+    "title": "Mousou Dairinin",
+    "score": 8.0
+  },
+  {
+    "id": 99536,
+    "title": "Munou na Nana",
+    "score": 0.0
+  },
+  {
+    "id": 122123,
+    "title": "Murazukuri Game no NPC ga Namami no Ningen to shika Omoenai",
+    "score": 7.0
+  },
+  {
+    "id": 21306,
+    "title": "Musaigen no Phantom World",
+    "score": 6.0
+  },
+  {
+    "id": 95719,
+    "title": "Mushihime",
+    "score": 8.0
+  },
+  {
+    "id": 146065,
+    "title": "Mushoku Tensei II: Isekai Ittara Honki Dasu",
+    "score": 9.0
+  },
+  {
+    "id": 108465,
+    "title": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+    "score": 9.5
+  },
+  {
+    "id": 85564,
+    "title": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+    "score": 8.0
+  },
+  {
+    "id": 85470,
+    "title": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+    "score": 10.0
+  },
+  {
+    "id": 127720,
+    "title": "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
+    "score": 9.5
+  },
+  {
+    "id": 104724,
+    "title": "Mushoku Tensei: Roxy datte Honki desu",
+    "score": 8.0
+  },
+  {
+    "id": 112579,
+    "title": "My Broken Mariko",
+    "score": 9.0
+  },
+  {
+    "id": 151189,
+    "title": "My Home Hero",
+    "score": 2.0
+  },
+  {
+    "id": 144957,
+    "title": "Myeolmang Ihuui Segye",
+    "score": 6.0
+  },
+  {
+    "id": 137280,
+    "title": "Na Honja Mallep Newbie",
+    "score": 7.0
+  },
+  {
+    "id": 105398,
+    "title": "Na Honjaman Level Up",
+    "score": 9.0
+  },
+  {
+    "id": 145551,
+    "title": "Nae Nampyeongwa Gyeolhonhaejwo",
+    "score": 7.0
+  },
+  {
+    "id": 111073,
+    "title": "Namae no Nai Kaibutsu: Kumo to Shoujo to Ryouki Satsujin",
+    "score": 8.0
+  },
+  {
+    "id": 877,
+    "title": "NANA",
+    "score": 8.0
+  },
+  {
+    "id": 142598,
+    "title": "Nanatsu no Maken ga Shihai Suru",
+    "score": 2.0
+  },
+  {
+    "id": 74485,
+    "title": "Nanatsu no Taizai",
+    "score": 5.0
+  },
+  {
+    "id": 20,
+    "title": "NARUTO",
+    "score": 6.5
+  },
+  {
+    "id": 30011,
+    "title": "NARUTO",
+    "score": 7.0
+  },
+  {
+    "id": 1735,
+    "title": "NARUTO: Shippuuden",
+    "score": 6.5
+  },
+  {
+    "id": 100494,
+    "title": "Neeko wa Tsurai yo",
+    "score": 7.0
+  },
+  {
+    "id": 101604,
+    "title": "NEET dakedo Hello Work ni Ittara Isekai ni Tsuretekareta",
+    "score": 6.0
+  },
+  {
+    "id": 1546,
+    "title": "Negima!?",
+    "score": 7.0
+  },
+  {
+    "id": 15689,
+    "title": "Nekomonogatari (Kuro)",
+    "score": 9.0
+  },
+  {
+    "id": 45484,
+    "title": "Nemurubaka",
+    "score": 8.0
+  },
+  {
+    "id": 99726,
+    "title": "Net-juu no Susume",
+    "score": 7.0
+  },
+  {
+    "id": 35157,
+    "title": "New Grappler Baki: In Search of Our Strongest Hero",
+    "score": 8.0
+  },
+  {
+    "id": 1210,
+    "title": "NHK ni Youkoso!",
+    "score": 9.0
+  },
+  {
+    "id": 10165,
+    "title": "Nichijou",
+    "score": 9.5
+  },
+  {
+    "id": 31373,
+    "title": "Nijigahara Holograph",
+    "score": 8.0
+  },
+  {
+    "id": 113624,
+    "title": "Ninkyou Tensei: Isekai no Yakuza-hime",
+    "score": 7.5
+  },
+  {
+    "id": 11597,
+    "title": "Nisemonogatari",
+    "score": 9.0
+  },
+  {
+    "id": 19815,
+    "title": "No Game No Life",
+    "score": 8.0
+  },
+  {
+    "id": 59983,
+    "title": "Noblesse",
+    "score": 0.0
+  },
+  {
+    "id": 95953,
+    "title": "Noboru Kotera-san",
+    "score": 0.0
+  },
+  {
+    "id": 20717,
+    "title": "Nobunaga Concerto",
+    "score": 6.0
+  },
+  {
+    "id": 1698,
+    "title": "Nodame Cantabile",
+    "score": 9.0
+  },
+  {
+    "id": 5690,
+    "title": "Nodame Cantabile Finale",
+    "score": 9.0
+  },
+  {
+    "id": 4477,
+    "title": "Nodame Cantabile: Paris-hen",
+    "score": 9.0
+  },
+  {
+    "id": 17549,
+    "title": "Non Non Biyori",
+    "score": 4.5
+  },
+  {
+    "id": 20447,
+    "title": "Noragami",
+    "score": 8.0
+  },
+  {
+    "id": 54692,
+    "title": "Noragami",
+    "score": 8.0
+  },
+  {
+    "id": 21128,
+    "title": "Noragami ARAGOTO",
+    "score": 8.0
+  },
+  {
+    "id": 147642,
+    "title": "Nozomanu Fushi no Boukensha",
+    "score": 6.0
+  },
+  {
+    "id": 100693,
+    "title": "Nozomanu Fushi no Boukensha",
+    "score": 0.0
+  },
+  {
+    "id": 139966,
+    "title": "Nyanta to Pomeko: Imasara Shinjite Iru to Iwaretemo Mou Teokure da",
+    "score": 4.5
+  },
+  {
+    "id": 116534,
+    "title": "Okaeri Alice",
+    "score": 9.0
+  },
+  {
+    "id": 153339,
+    "title": "Okashi na Tensei",
+    "score": 4.0
+  },
+  {
+    "id": 109107,
+    "title": "Okashi na Tensei: Saikyou P\u00e2tissier Isekai Kourin",
+    "score": 5.0
+  },
+  {
+    "id": 47465,
+    "title": "Omoide Emanon",
+    "score": 0.0
+  },
+  {
+    "id": 30013,
+    "title": "ONE PIECE",
+    "score": 8.0
+  },
+  {
+    "id": 21087,
+    "title": "One Punch Man",
+    "score": 9.0
+  },
+  {
+    "id": 147864,
+    "title": "Onii-chan wa Oshimai!",
+    "score": 9.5
+  },
+  {
+    "id": 12355,
+    "title": "Ookami Kodomo no Ame to Yuki",
+    "score": 9.5
+  },
+  {
+    "id": 2966,
+    "title": "Ookami to Koushinryou",
+    "score": 7.0
+  },
+  {
+    "id": 5341,
+    "title": "Ookami to Koushinryou II",
+    "score": 8.0
+  },
+  {
+    "id": 85704,
+    "title": "Ookii Onnanoko wa Suki desu ka?",
+    "score": 7.0
+  },
+  {
+    "id": 151807,
+    "title": "Ore dake Level Up na Ken",
+    "score": 8.0
+  },
+  {
+    "id": 20946,
+    "title": "Ore Monogatari!!",
+    "score": 7.0
+  },
+  {
+    "id": 8769,
+    "title": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai",
+    "score": 9.0
+  },
+  {
+    "id": 13659,
+    "title": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai.",
+    "score": 9.0
+  },
+  {
+    "id": 115209,
+    "title": "Ore wa Lolicon ja Nai!",
+    "score": 8.0
+  },
+  {
+    "id": 97493,
+    "title": "Oroka na Tenshi wa Akuma to Odoru",
+    "score": 0.0
+  },
+  {
+    "id": 21261,
+    "title": "Osomatsu-san",
+    "score": 6.0
+  },
+  {
+    "id": 98565,
+    "title": "Osomatsu-san 2",
+    "score": 6.0
+  },
+  {
+    "id": 104647,
+    "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta\u2026",
+    "score": 7.0
+  },
+  {
+    "id": 120209,
+    "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta\u2026 X",
+    "score": 7.0
+  },
+  {
+    "id": 853,
+    "title": "Ouran Koukou Host Club",
+    "score": 7.5
+  },
+  {
+    "id": 113717,
+    "title": "Ousama Ranking",
+    "score": 8.5
+  },
+  {
+    "id": 153452,
+    "title": "Ousama Ranking: Yuuki no Takarabako",
+    "score": 0.0
+  },
+  {
+    "id": 20832,
+    "title": "Overlord",
+    "score": 9.0
+  },
+  {
+    "id": 98437,
+    "title": "Overlord II",
+    "score": 8.0
+  },
+  {
+    "id": 133844,
+    "title": "Overlord IV",
+    "score": 8.0
+  },
+  {
+    "id": 20829,
+    "title": "Owari no Seraph",
+    "score": 6.5
+  },
+  {
+    "id": 20993,
+    "title": "Owari no Seraph: Nagoya Kessen-hen",
+    "score": 6.5
+  },
+  {
+    "id": 21262,
+    "title": "Owarimonogatari",
+    "score": 0.0
+  },
+  {
+    "id": 21745,
+    "title": "Owarimonogatari (Ge)",
+    "score": 0.0
+  },
+  {
+    "id": 34632,
+    "title": "Oyasumi Punpun",
+    "score": 10.0
+  },
+  {
+    "id": 33031,
+    "title": "Pandora Hearts",
+    "score": 0.0
+  },
+  {
+    "id": 8795,
+    "title": "Panty & Stocking with Garterbelt",
+    "score": 9.0
+  },
+  {
+    "id": 141774,
+    "title": "Paripi Koumei",
+    "score": 6.0
+  },
+  {
+    "id": 123034,
+    "title": "Paripi Koumei",
+    "score": 7.0
+  },
+  {
+    "id": 326,
+    "title": "Petshop of Horrors",
+    "score": 0.0
+  },
+  {
+    "id": 20607,
+    "title": "Ping Pong THE ANIMATION",
+    "score": 10.0
+  },
+  {
+    "id": 21732,
+    "title": "planetarian: Chiisana Hoshi no Yume",
+    "score": 0.0
+  },
+  {
+    "id": 21771,
+    "title": "planetarian: Hoshi no Hito",
+    "score": 0.0
+  },
+  {
+    "id": 113595,
+    "title": "planetarian: Snow Globe",
+    "score": 0.0
+  },
+  {
+    "id": 10711,
+    "title": "Plastic Nee-san",
+    "score": 9.0
+  },
+  {
+    "id": 55675,
+    "title": "Plastic Nee-san",
+    "score": 7.0
+  },
+  {
+    "id": 101168,
+    "title": "Plunderer",
+    "score": 3.0
+  },
+  {
+    "id": 99088,
+    "title": "PLUTO",
+    "score": 9.0
+  },
+  {
+    "id": 30745,
+    "title": "PLUTO",
+    "score": 8.0
+  },
+  {
+    "id": 30928,
+    "title": "Pocket Monsters SPECIAL",
+    "score": 9.0
+  },
+  {
+    "id": 98549,
+    "title": "Poputepipikku",
+    "score": 6.0
+  },
+  {
+    "id": 721,
+    "title": "Princess Tutu",
+    "score": 0.0
+  },
+  {
+    "id": 99425,
+    "title": "Promare",
+    "score": 7.0
+  },
+  {
+    "id": 13601,
+    "title": "PSYCHO-PASS",
+    "score": 6.0
+  },
+  {
+    "id": 103082,
+    "title": "Pumpkin Night",
+    "score": 6.0
+  },
+  {
+    "id": 146493,
+    "title": "Ragna Crimson",
+    "score": 6.0
+  },
+  {
+    "id": 99065,
+    "title": "Ragna Crimson",
+    "score": 7.0
+  },
+  {
+    "id": 417,
+    "title": "RAGNAROK THE ANIMATION",
+    "score": 4.0
+  },
+  {
+    "id": 6114,
+    "title": "RAINBOW: Nisha Rokubou no Shichinin",
+    "score": 7.0
+  },
+  {
+    "id": 101883,
+    "title": "Rakujitsu no Pathos",
+    "score": 3.0
+  },
+  {
+    "id": 210,
+    "title": "Ranma 1/2",
+    "score": 7.0
+  },
+  {
+    "id": 21355,
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu",
+    "score": 8.0
+  },
+  {
+    "id": 108632,
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+    "score": 8.0
+  },
+  {
+    "id": 119661,
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
+    "score": 8.0
+  },
+  {
+    "id": 113076,
+    "title": "Real mo Tama ni wa Uso wo Tsuku",
+    "score": 6.0
+  },
+  {
+    "id": 710,
+    "title": "Rec",
+    "score": 6.0
+  },
+  {
+    "id": 6675,
+    "title": "REDLINE",
+    "score": 9.0
+  },
+  {
+    "id": 98674,
+    "title": "Reiraku",
+    "score": 7.0
+  },
+  {
+    "id": 101561,
+    "title": "Rental Onii-chan",
+    "score": 8.0
+  },
+  {
+    "id": 13599,
+    "title": "Robotics;Notes",
+    "score": 7.0
+  },
+  {
+    "id": 20955,
+    "title": "Rokka no Yuusha",
+    "score": 7.0
+  },
+  {
+    "id": 153930,
+    "title": "Romantic Killer",
+    "score": 7.0
+  },
+  {
+    "id": 125528,
+    "title": "Rosengarten Saga",
+    "score": 4.0
+  },
+  {
+    "id": 152765,
+    "title": "Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu",
+    "score": 7.0
+  },
+  {
+    "id": 101715,
+    "title": "Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu",
+    "score": 7.0
+  },
+  {
+    "id": 64,
+    "title": "Rozen Maiden",
+    "score": 7.0
+  },
+  {
+    "id": 18041,
+    "title": "Rozen Maiden (2013)",
+    "score": 6.0
+  },
+  {
+    "id": 65,
+    "title": "Rozen Maiden: Tr\u00e4umend",
+    "score": 7.0
+  },
+  {
+    "id": 45,
+    "title": "Rurouni Kenshin: Meiji Kenkaku Romantan",
+    "score": 7.5
+  },
+  {
+    "id": 162893,
+    "title": "Ryza no Atelier: Tokoyami no Joou to Himitsu no Kakurega",
+    "score": 1.0
+  },
+  {
+    "id": 119821,
+    "title": "S-Rank Boukensha de Aru Ore no Musumetachi wa Juudo no Father-con Deshita",
+    "score": 7.0
+  },
+  {
+    "id": 87459,
+    "title": "Sabishisugite Rezu Fuzoku ni Ikimashita Report",
+    "score": 9.0
+  },
+  {
+    "id": 101521,
+    "title": "Saihate no Paladin",
+    "score": 7.0
+  },
+  {
+    "id": 143085,
+    "title": "Saihate no Paladin: Tetsusabi no Yama no Ou",
+    "score": 7.0
+  },
+  {
+    "id": 21804,
+    "title": "Saiki Kusuo no \u03a8-nan",
+    "score": 0.0
+  },
+  {
+    "id": 144553,
+    "title": "Saikyou Onmyouji no Isekai Tenseiki",
+    "score": 7.0
+  },
+  {
+    "id": 1254,
+    "title": "Saint Seiya",
+    "score": 7.5
+  },
+  {
+    "id": 529,
+    "title": "Saishuu Heiki Kanojo",
+    "score": 8.0
+  },
+  {
+    "id": 21595,
+    "title": "Sakamoto desu ga?",
+    "score": 7.0
+  },
+  {
+    "id": 114,
+    "title": "Sakigake!! Cromartie Koukou",
+    "score": 8.0
+  },
+  {
+    "id": 561,
+    "title": "Sakura Taisen",
+    "score": 8.0
+  },
+  {
+    "id": 20047,
+    "title": "Sakura Trick",
+    "score": 8.0
+  },
+  {
+    "id": 205,
+    "title": "Samurai Champloo",
+    "score": 9.0
+  },
+  {
+    "id": 99851,
+    "title": "Saotome-Senshu, Hitakakusu",
+    "score": 7.0
+  },
+  {
+    "id": 126288,
+    "title": "Sasaki to Miyano",
+    "score": 7.0
+  },
+  {
+    "id": 146743,
+    "title": "Sasaki to Miyano: Sotsugyou-hen",
+    "score": 7.0
+  },
+  {
+    "id": 152682,
+    "title": "Sasaki to Pii-chan",
+    "score": 6.0
+  },
+  {
+    "id": 148134,
+    "title": "Savage Fang Ojou-sama Shijou Saikyou no Youhei wa Shijou Saikyou no Bougyaku Reijou to Natte Nidome no Sekai wo Musou Suru",
+    "score": 4.5
+  },
+  {
+    "id": 146983,
+    "title": "Sayonara Eri",
+    "score": 0.0
+  },
+  {
+    "id": 2605,
+    "title": "Sayonara Zetsubou Sensei",
+    "score": 8.0
+  },
+  {
+    "id": 152483,
+    "title": "Scary Campus College University",
+    "score": 5.0
+  },
+  {
+    "id": 2476,
+    "title": "School Days (TV)",
+    "score": 5.0
+  },
+  {
+    "id": 24,
+    "title": "School Rumble",
+    "score": 8.5
+  },
+  {
+    "id": 846,
+    "title": "School Rumble Ni Gakki",
+    "score": 8.5
+  },
+  {
+    "id": 155418,
+    "title": "Seija Musou: Salaryman, Isekai de Ikinokoru Tame ni Ayumu Michi",
+    "score": 3.0
+  },
+  {
+    "id": 146206,
+    "title": "Seijo no Maryoku wa Bannou desu Season 2",
+    "score": 6.0
+  },
+  {
+    "id": 101291,
+    "title": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
+    "score": 9.0
+  },
+  {
+    "id": 104157,
+    "title": "Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai",
+    "score": 9.0
+  },
+  {
+    "id": 45355,
+    "title": "Sekai no Owari to Yoake Mae",
+    "score": 8.0
+  },
+  {
+    "id": 129898,
+    "title": "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru",
+    "score": 8.0
+  },
+  {
+    "id": 107603,
+    "title": "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru",
+    "score": 7.0
+  },
+  {
+    "id": 20496,
+    "title": "Sekai Seifuku: Bouryaku no Zvezda",
+    "score": 8.0
+  },
+  {
+    "id": 199,
+    "title": "Sen to Chihiro no Kamikakushi",
+    "score": 7.0
+  },
+  {
+    "id": 168194,
+    "title": "Sengoku Youko",
+    "score": 6.0
+  },
+  {
+    "id": 15793,
+    "title": "Senki Zesshou Symphogear G",
+    "score": 6.0
+  },
+  {
+    "id": 120646,
+    "title": "Senpai ga Uzai Kouhai no Hanashi",
+    "score": 8.0
+  },
+  {
+    "id": 118570,
+    "title": "Senpai wa Otokonoko",
+    "score": 9.0
+  },
+  {
+    "id": 174262,
+    "title": "Senpai wa Otokonoko: Deai-hen",
+    "score": 0.0
+  },
+  {
+    "id": 127564,
+    "title": "Sentai Daishikkaku",
+    "score": 8.0
+  },
+  {
+    "id": 339,
+    "title": "serial experiments lain",
+    "score": 9.0
+  },
+  {
+    "id": 159295,
+    "title": "Serial Killer Isekai ni Oritatsu",
+    "score": 7.0
+  },
+  {
+    "id": 104063,
+    "title": "Shadows House",
+    "score": 0.0
+  },
+  {
+    "id": 355,
+    "title": "Shakugan no Shana",
+    "score": 5.0
+  },
+  {
+    "id": 2787,
+    "title": "Shakugan no Shana II (Second)",
+    "score": 5.0
+  },
+  {
+    "id": 6773,
+    "title": "Shakugan no Shana III (Final)",
+    "score": 5.0
+  },
+  {
+    "id": 154,
+    "title": "Shaman King",
+    "score": 7.5
+  },
+  {
+    "id": 151970,
+    "title": "Shangri-La Frontier",
+    "score": 8.0
+  },
+  {
+    "id": 122063,
+    "title": "Shangri-La Frontier: Kusoge Hunter, Kami ge ni Idoman to su",
+    "score": 8.0
+  },
+  {
+    "id": 20665,
+    "title": "Shigatsu wa Kimi no Uso",
+    "score": 8.0
+  },
+  {
+    "id": 126403,
+    "title": "Shiguang Dailiren",
+    "score": 8.0
+  },
+  {
+    "id": 4581,
+    "title": "Shikabane Hime: Aka",
+    "score": 4.0
+  },
+  {
+    "id": 5034,
+    "title": "Shikabane Hime: Kuro",
+    "score": 4.0
+  },
+  {
+    "id": 90,
+    "title": "Shin Kidou Senki Gundam Wing",
+    "score": 8.0
+  },
+  {
+    "id": 126213,
+    "title": "Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni shimashita",
+    "score": 6.0
+  },
+  {
+    "id": 156131,
+    "title": "Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni shimashita 2nd",
+    "score": 6.0
+  },
+  {
+    "id": 30,
+    "title": "Shin Seiki Evangelion",
+    "score": 8.0
+  },
+  {
+    "id": 32,
+    "title": "Shin Seiki Evangelion Movie: Air / Magokoro wo, Kimi ni",
+    "score": 9.0
+  },
+  {
+    "id": 146954,
+    "title": "Shin Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei",
+    "score": 5.0
+  },
+  {
+    "id": 538,
+    "title": "Shin Tenchi Muyou!",
+    "score": 6.0
+  },
+  {
+    "id": 105156,
+    "title": "Shinchou Yuusha: Kono Yuusha ga Ore TUEEE Kuse ni Shinchou Sugiru",
+    "score": 7.0
+  },
+  {
+    "id": 16498,
+    "title": "Shingeki no Kyojin",
+    "score": 8.0
+  },
+  {
+    "id": 53390,
+    "title": "Shingeki no Kyojin",
+    "score": 6.0
+  },
+  {
+    "id": 20958,
+    "title": "Shingeki no Kyojin 2",
+    "score": 8.0
+  },
+  {
+    "id": 99147,
+    "title": "Shingeki no Kyojin 3",
+    "score": 7.0
+  },
+  {
+    "id": 104578,
+    "title": "Shingeki no Kyojin 3 Part 2",
+    "score": 7.0
+  },
+  {
+    "id": 85199,
+    "title": "Shingeki no Kyojin Gaiden: Kuinaki Sentaku",
+    "score": 6.0
+  },
+  {
+    "id": 110277,
+    "title": "Shingeki no Kyojin: The Final Season",
+    "score": 6.5
+  },
+  {
+    "id": 131681,
+    "title": "Shingeki no Kyojin: The Final Season Part 2",
+    "score": 6.5
+  },
+  {
+    "id": 111159,
+    "title": "Shinigami ni Sodaterareta Shoujo wa Shikkoku no Ken wo Mune ni Idaku",
+    "score": 7.0
+  },
+  {
+    "id": 129068,
+    "title": "Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei",
+    "score": 5.0
+  },
+  {
+    "id": 114048,
+    "title": "Shinmai Ossan Bouken-sha, Saikyou Party ni Shinu Hodo Kitaerarete Muteki ni Naru.",
+    "score": 7.0
+  },
+  {
+    "id": 79017,
+    "title": "Shino-chan wa Jibun no Namae ga Ienai",
+    "score": 8.0
+  },
+  {
+    "id": 13125,
+    "title": "Shinsekai yori",
+    "score": 9.0
+  },
+  {
+    "id": 124301,
+    "title": "Shinu hodo Kimi no Shojo ga Hoshii",
+    "score": 0.0
+  },
+  {
+    "id": 120811,
+    "title": "Shitsugyou Kenja no Nariagari: Kirawareta Sainou wa Sekai Saikyoudeshita",
+    "score": 6.0
+  },
+  {
+    "id": 97764,
+    "title": "Shokuryou Jinrui: Starving Anonymous",
+    "score": 7.0
+  },
+  {
+    "id": 87015,
+    "title": "Shoujo Fujuubun",
+    "score": 0.0
+  },
+  {
+    "id": 440,
+    "title": "Shoujo Kakumei Utena",
+    "score": 0.0
+  },
+  {
+    "id": 116186,
+    "title": "Shounen no Abyss",
+    "score": 8.0
+  },
+  {
+    "id": 86719,
+    "title": "Shounen Shoujo",
+    "score": 0.0
+  },
+  {
+    "id": 106988,
+    "title": "Shouwa Otome Otogibanashi",
+    "score": 0.0
+  },
+  {
+    "id": 79,
+    "title": "SHUFFLE!",
+    "score": 7.0
+  },
+  {
+    "id": 1836,
+    "title": "Shuffle! Memories",
+    "score": 7.0
+  },
+  {
+    "id": 126634,
+    "title": "Shujinkou ja Nai!",
+    "score": 5.0
+  },
+  {
+    "id": 107098,
+    "title": "Shuumatsu no Valkyrie",
+    "score": 8.0
+  },
+  {
+    "id": 138056,
+    "title": "Shuumatsu no Valkyrie II",
+    "score": 7.0
+  },
+  {
+    "id": 110605,
+    "title": "Simhaesu",
+    "score": 0.0
+  },
+  {
+    "id": 141911,
+    "title": "Skip to Loafer",
+    "score": 9.0
+  },
+  {
+    "id": 109285,
+    "title": "Skip to Loafer",
+    "score": 9.0
+  },
+  {
+    "id": 170,
+    "title": "SLAM DUNK",
+    "score": 8.0
+  },
+  {
+    "id": 534,
+    "title": "Slayers",
+    "score": 8.0
+  },
+  {
+    "id": 535,
+    "title": "Slayers NEXT",
+    "score": 7.0
+  },
+  {
+    "id": 1172,
+    "title": "Slayers TRY",
+    "score": 7.0
+  },
+  {
+    "id": 116024,
+    "title": "Sobiwaku Zero no Saikyou Kenshi: demo, Noroi no Sobi (Kawaii) nara 9999-ko Tsuke Hodai",
+    "score": 6.0
+  },
+  {
+    "id": 33731,
+    "title": "Solanin",
+    "score": 9.5
+  },
+  {
+    "id": 132405,
+    "title": "Sono Bisque Doll wa Koi wo Suru",
+    "score": 8.0
+  },
+  {
+    "id": 101583,
+    "title": "Sono Bisque Doll wa Koi wo Suru",
+    "score": 8.5
+  },
+  {
+    "id": 8726,
+    "title": "Soredemo Machi wa Mawatteiru",
+    "score": 7.0
+  },
+  {
+    "id": 3588,
+    "title": "Soul Eater",
+    "score": 8.0
+  },
+  {
+    "id": 30908,
+    "title": "Soul Eater",
+    "score": 8.0
+  },
+  {
+    "id": 20547,
+    "title": "Soul Eater Not!",
+    "score": 5.0
+  },
+  {
+    "id": 154587,
+    "title": "Sousou no Frieren",
+    "score": 10.0
+  },
+  {
+    "id": 118586,
+    "title": "Sousou no Frieren",
+    "score": 10.0
+  },
+  {
+    "id": 140960,
+    "title": "SPY\u00d7FAMILY",
+    "score": 6.0
+  },
+  {
+    "id": 108556,
+    "title": "SPY\u00d7FAMILY",
+    "score": 7.0
+  },
+  {
+    "id": 142838,
+    "title": "SPY\u00d7FAMILY Part 2",
+    "score": 6.0
+  },
+  {
+    "id": 158927,
+    "title": "SPY\u00d7FAMILY Season 2",
+    "score": 7.0
+  },
+  {
+    "id": 8934,
+    "title": "STAR DRIVER: Kagayaki no Takuto",
+    "score": 5.0
+  },
+  {
+    "id": 9253,
+    "title": "Steins;Gate",
+    "score": 10.0
+  },
+  {
+    "id": 21127,
+    "title": "Steins;Gate 0",
+    "score": 10.0
+  },
+  {
+    "id": 11577,
+    "title": "Steins;Gate: Fuka Ryouiki no D\u00e9j\u00e0 vu",
+    "score": 9.0
+  },
+  {
+    "id": 33614,
+    "title": "Subarashii Sekai",
+    "score": 9.0
+  },
+  {
+    "id": 21190,
+    "title": "Subete ga F ni Naru: THE PERFECT INSIDER",
+    "score": 6.0
+  },
+  {
+    "id": 139821,
+    "title": "Sugar Apple Fairy Tale",
+    "score": 7.0
+  },
+  {
+    "id": 163079,
+    "title": "Sugar Apple Fairy Tale Part 2",
+    "score": 7.0
+  },
+  {
+    "id": 160188,
+    "title": "Suki na Ko ga Megane wo Wasureta",
+    "score": 3.0
+  },
+  {
+    "id": 14289,
+    "title": "Sukitte Ii na yo.",
+    "score": 7.0
+  },
+  {
+    "id": 129201,
+    "title": "Summer Time Render",
+    "score": 0.0
+  },
+  {
+    "id": 5681,
+    "title": "Summer Wars",
+    "score": 7.0
+  },
+  {
+    "id": 25,
+    "title": "Sunabouzu",
+    "score": 7.0
+  },
+  {
+    "id": 147149,
+    "title": "Super no Ura de Yani Suu Futari",
+    "score": 0.0
+  },
+  {
+    "id": 100568,
+    "title": "Supyeongseon",
+    "score": 10.0
+  },
+  {
+    "id": 7311,
+    "title": "Suzumiya Haruhi no Shoushitsu",
+    "score": 8.0
+  },
+  {
+    "id": 849,
+    "title": "Suzumiya Haruhi no Yuuutsu",
+    "score": 9.0
+  },
+  {
+    "id": 4382,
+    "title": "Suzumiya Haruhi no Yuuutsu (2009)",
+    "score": 7.0
+  },
+  {
+    "id": 11757,
+    "title": "Sword Art Online",
+    "score": 6.0
+  },
+  {
+    "id": 100183,
+    "title": "Sword Art Online Alternative: Gun Gale Online",
+    "score": 7.0
+  },
+  {
+    "id": 20594,
+    "title": "Sword Art Online II",
+    "score": 7.0
+  },
+  {
+    "id": 100182,
+    "title": "Sword Art Online: Alicization",
+    "score": 8.0
+  },
+  {
+    "id": 108759,
+    "title": "Sword Art Online: Alicization - War of Underworld",
+    "score": 8.0
+  },
+  {
+    "id": 114308,
+    "title": "Sword Art Online: Alicization - War of Underworld Part 2",
+    "score": 8.0
+  },
+  {
+    "id": 2011,
+    "title": "Taiho Shichauzo: Special",
+    "score": 5.0
+  },
+  {
+    "id": 127412,
+    "title": "Taishou Otome Otogibanashi",
+    "score": 8.0
+  },
+  {
+    "id": 96754,
+    "title": "Taishou Otome Otogibanashi",
+    "score": 0.0
+  },
+  {
+    "id": 56736,
+    "title": "Taiyou no Ie",
+    "score": 9.0
+  },
+  {
+    "id": 87238,
+    "title": "Taki Anna no Honshou wa S nano ka M nano ka Ore dake ga Shitteiru.",
+    "score": 7.0
+  },
+  {
+    "id": 142568,
+    "title": "Takopii no Genzai",
+    "score": 8.0
+  },
+  {
+    "id": 131565,
+    "title": "takt op.Destiny",
+    "score": 7.0
+  },
+  {
+    "id": 85734,
+    "title": "Tamen De Gushi",
+    "score": 9.0
+  },
+  {
+    "id": 21495,
+    "title": "Tanaka-kun wa Itsumo Kedaruge",
+    "score": 7.0
+  },
+  {
+    "id": 99263,
+    "title": "Tate no Yuusha no Nariagari",
+    "score": 7.0
+  },
+  {
+    "id": 85743,
+    "title": "Tate no Yuusha no Nariagari",
+    "score": 7.0
+  },
+  {
+    "id": 111321,
+    "title": "Tate no Yuusha no Nariagari Season 2",
+    "score": 6.0
+  },
+  {
+    "id": 111322,
+    "title": "Tate no Yuusha no Nariagari Season 3",
+    "score": 7.0
+  },
+  {
+    "id": 112830,
+    "title": "Tearmoon Teikoku Monogatari: Dantoudai kara Hajimaru, Hime no Tensei Gyakuten Story",
+    "score": 0.0
+  },
+  {
+    "id": 113981,
+    "title": "Teito Seihai Kitan: Fate/type Redline",
+    "score": 9.0
+  },
+  {
+    "id": 696,
+    "title": "Tenchi Muyou!",
+    "score": 7.0
+  },
+  {
+    "id": 2001,
+    "title": "Tengen Toppa Gurren Lagann",
+    "score": 9.0
+  },
+  {
+    "id": 4565,
+    "title": "Tengen Toppa Gurren Lagann: Lagann-hen",
+    "score": 9.0
+  },
+  {
+    "id": 182,
+    "title": "Tenkuu no Escaflowne",
+    "score": 7.0
+  },
+  {
+    "id": 120236,
+    "title": "Tensei Goblin Dakedo Shitsumon Aru?",
+    "score": 5.0
+  },
+  {
+    "id": 126078,
+    "title": "Tensei gotoki de Nigerareru to demo, Nii-san?",
+    "score": 6.0
+  },
+  {
+    "id": 121753,
+    "title": "Tensei Kizoku Kantei Skill de Nariagaru: Jakushou Ryouchi wo Uketsuidanode, Yuushuuna Jinzai wo Fuyashite Itara, Saikyou Ryouchi ni Natteta",
+    "score": 7.0
+  },
+  {
+    "id": 153332,
+    "title": "Tensei Kizoku no Isekai Boukenroku: Jichou wo Shiranai Kamigami no Shito",
+    "score": 6.0
+  },
+  {
+    "id": 114920,
+    "title": "Tensei Oujo to Tensai Reijou no Mahou Kakumei",
+    "score": 3.0
+  },
+  {
+    "id": 139587,
+    "title": "Tensei Shitara Ken Deshita",
+    "score": 0.0
+  },
+  {
+    "id": 97466,
+    "title": "Tensei Shitara Ken Deshita",
+    "score": 7.0
+  },
+  {
+    "id": 101280,
+    "title": "Tensei Shitara Slime Datta Ken",
+    "score": 8.0
+  },
+  {
+    "id": 86399,
+    "title": "Tensei Shitara Slime Datta Ken",
+    "score": 9.0
+  },
+  {
+    "id": 86355,
+    "title": "Tensei Shitara Slime Datta Ken",
+    "score": 9.0
+  },
+  {
+    "id": 108511,
+    "title": "Tensei Shitara Slime Datta Ken 2nd Season",
+    "score": 8.0
+  },
+  {
+    "id": 116742,
+    "title": "Tensei Shitara Slime Datta Ken 2nd Season Part 2",
+    "score": 8.0
+  },
+  {
+    "id": 885,
+    "title": "Tenshi no Tamago",
+    "score": 7.5
+  },
+  {
+    "id": 26,
+    "title": "TEXHNOLYZE",
+    "score": 5.5
+  },
+  {
+    "id": 567,
+    "title": "THE Big O",
+    "score": 5.0
+  },
+  {
+    "id": 119174,
+    "title": "The Boxer",
+    "score": 0.0
+  },
+  {
+    "id": 146975,
+    "title": "THE iDOLM@STER Cinderella Girls: U149",
+    "score": 7.0
+  },
+  {
+    "id": 31408,
+    "title": "The World Is Mine",
+    "score": 0.0
+  },
+  {
+    "id": 118644,
+    "title": "Time Paradox Ghostwriter",
+    "score": 0.0
+  },
+  {
+    "id": 6213,
+    "title": "Toaru Kagaku no Railgun",
+    "score": 7.0
+  },
+  {
+    "id": 16049,
+    "title": "Toaru Kagaku no Railgun S",
+    "score": 7.0
+  },
+  {
+    "id": 104462,
+    "title": "Toaru Kagaku no Railgun T",
+    "score": 6.0
+  },
+  {
+    "id": 4654,
+    "title": "Toaru Majutsu no Index",
+    "score": 7.0
+  },
+  {
+    "id": 8937,
+    "title": "Toaru Majutsu no Index II",
+    "score": 7.0
+  },
+  {
+    "id": 161364,
+    "title": "Toaru Ossan no VRMMO Katsudouki",
+    "score": 4.0
+  },
+  {
+    "id": 20605,
+    "title": "Tokyo Ghoul",
+    "score": 5.0
+  },
+  {
+    "id": 63327,
+    "title": "Tokyo Ghoul",
+    "score": 8.0
+  },
+  {
+    "id": 85611,
+    "title": "Tokyo Ghoul:re",
+    "score": 0.0
+  },
+  {
+    "id": 759,
+    "title": "Tokyo Godfathers",
+    "score": 9.0
+  },
+  {
+    "id": 6211,
+    "title": "Tokyo Magnitude 8.0",
+    "score": 6.0
+  },
+  {
+    "id": 120120,
+    "title": "Tokyo Revengers",
+    "score": 6.0
+  },
+  {
+    "id": 102988,
+    "title": "Tokyo\u534dRevengers",
+    "score": 4.0
+  },
+  {
+    "id": 151806,
+    "title": "Tomo-chan wa Onnanoko!",
+    "score": 0.0
+  },
+  {
+    "id": 141014,
+    "title": "Tomodachi Game",
+    "score": 4.0
+  },
+  {
+    "id": 14227,
+    "title": "Tonari no Kaibutsu-kun",
+    "score": 5.0
+  },
+  {
+    "id": 156067,
+    "title": "Tondemo Skill de Isekai Hourou Meshi",
+    "score": 7.0
+  },
+  {
+    "id": 98608,
+    "title": "Tondemo Skill de Isekai Hourou Meshi",
+    "score": 7.0
+  },
+  {
+    "id": 98263,
+    "title": "Tongari Boushi no Atelier",
+    "score": 0.0
+  },
+  {
+    "id": 1002,
+    "title": "Top wo Nerae 2! DIEBUSTER",
+    "score": 9.0
+  },
+  {
+    "id": 949,
+    "title": "Top wo Nerae! GunBuster",
+    "score": 8.0
+  },
+  {
+    "id": 4224,
+    "title": "Toradora!",
+    "score": 8.0
+  },
+  {
+    "id": 658,
+    "title": "Touhai Densetsu Akagi: Yami ni Maiorita Tensai",
+    "score": 8.0
+  },
+  {
+    "id": 6,
+    "title": "TRIGUN",
+    "score": 8.0
+  },
+  {
+    "id": 151040,
+    "title": "TRIGUN STAMPEDE",
+    "score": 7.0
+  },
+  {
+    "id": 2129,
+    "title": "true tears",
+    "score": 7.0
+  },
+  {
+    "id": 177,
+    "title": "Tsubasa Chronicle",
+    "score": 7.5
+  },
+  {
+    "id": 969,
+    "title": "Tsubasa Chronicle 2nd Season",
+    "score": 7.5
+  },
+  {
+    "id": 30009,
+    "title": "Tsubasa: RESERVoir CHRoNiCLE",
+    "score": 9.0
+  },
+  {
+    "id": 2685,
+    "title": "Tsubasa: TOKYO REVELATIONS",
+    "score": 9.0
+  },
+  {
+    "id": 44369,
+    "title": "Tsugumomo",
+    "score": 0.0
+  },
+  {
+    "id": 125206,
+    "title": "Tsuki ga Michibiku Isekai Douchuu",
+    "score": 8.0
+  },
+  {
+    "id": 87224,
+    "title": "Tsuki ga Michibiku Isekai Douchuu",
+    "score": 8.0
+  },
+  {
+    "id": 139518,
+    "title": "Tsuki ga Michibiku Isekai Douchuu 2nd Season",
+    "score": 7.5
+  },
+  {
+    "id": 20918,
+    "title": "Tsukimonogatari",
+    "score": 9.0
+  },
+  {
+    "id": 109047,
+    "title": "Tsuma, Shougakusei ni Naru.",
+    "score": 6.0
+  },
+  {
+    "id": 104723,
+    "title": "Tsuujou Kougeki ga Zentai Kougeki de Ni-kai Kougeki no Okaasan wa Suki desu ka?",
+    "score": 3.0
+  },
+  {
+    "id": 47353,
+    "title": "Umibe no Onnanoko",
+    "score": 8.0
+  },
+  {
+    "id": 4896,
+    "title": "Umineko no Naku Koro ni",
+    "score": 7.5
+  },
+  {
+    "id": 162983,
+    "title": "Undead Girl Murder Farce",
+    "score": 7.0
+  },
+  {
+    "id": 85151,
+    "title": "UQ Holder!",
+    "score": 8.0
+  },
+  {
+    "id": 10162,
+    "title": "Usagi Drop",
+    "score": 7.0
+  },
+  {
+    "id": 33468,
+    "title": "Usagi Drop",
+    "score": 8.0
+  },
+  {
+    "id": 30436,
+    "title": "Uzumaki",
+    "score": 8.0
+  },
+  {
+    "id": 123003,
+    "title": "Valhalla Otintin Kan",
+    "score": 6.0
+  },
+  {
+    "id": 97842,
+    "title": "Vigilante: Boku no Hero Academia ILLEGALS",
+    "score": 6.0
+  },
+  {
+    "id": 101348,
+    "title": "VINLAND SAGA",
+    "score": 9.0
+  },
+  {
+    "id": 30642,
+    "title": "Vinland Saga",
+    "score": 0.0
+  },
+  {
+    "id": 136430,
+    "title": "VINLAND SAGA SEASON 2",
+    "score": 9.0
+  },
+  {
+    "id": 128546,
+    "title": "Vivy: Fluorite Eye\u2019s Song",
+    "score": 0.0
+  },
+  {
+    "id": 132066,
+    "title": "Watashi ga 15-sai dewa Nakunatte mo.",
+    "score": 6.0
+  },
+  {
+    "id": 16742,
+    "title": "Watashi ga Motenai no wa Dou Kangaetemo Omaera ga Warui!",
+    "score": 6.0
+  },
+  {
+    "id": 158704,
+    "title": "Watashi no Oshi wa Akuyaku Reijou.",
+    "score": 7.0
+  },
+  {
+    "id": 147103,
+    "title": "Watashi no Shiawase na Kekkon",
+    "score": 7.0
+  },
+  {
+    "id": 101227,
+    "title": "Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!",
+    "score": 7.0
+  },
+  {
+    "id": 20053,
+    "title": "Wizard Barristers: Benmashi Cecil",
+    "score": 1.0
+  },
+  {
+    "id": 202,
+    "title": "Wolf's Rain",
+    "score": 6.0
+  },
+  {
+    "id": 124845,
+    "title": "Wonder Egg Priority",
+    "score": 7.0
+  },
+  {
+    "id": 6956,
+    "title": "WORKING!!",
+    "score": 6.0
+  },
+  {
+    "id": 20819,
+    "title": "WORKING!!!",
+    "score": 7.0
+  },
+  {
+    "id": 10521,
+    "title": "WORKING'!!",
+    "score": 7.0
+  },
+  {
+    "id": 86786,
+    "title": "World Teacher: Isekaishiki Kyouiku Agent",
+    "score": 0.0
+  },
+  {
+    "id": 99578,
+    "title": "Wotaku ni Koi wa Muzukashii",
+    "score": 9.0
+  },
+  {
+    "id": 861,
+    "title": "xxxHOLiC",
+    "score": 8.0
+  },
+  {
+    "id": 3091,
+    "title": "xxxHOLiC Kei",
+    "score": 8.0
+  },
+  {
+    "id": 14813,
+    "title": "Yahari Ore no Seishun Love Come wa Machigatteiru.",
+    "score": 8.0
+  },
+  {
+    "id": 108489,
+    "title": "Yahari Ore no Seishun Love Come wa Machigatteiru. Kan",
+    "score": 0.0
+  },
+  {
+    "id": 20698,
+    "title": "Yahari Ore no Seishun Love Come wa Machigatteiru. Zoku",
+    "score": 8.0
+  },
+  {
+    "id": 101122,
+    "title": "Yakedo Shoujo",
+    "score": 0.0
+  },
+  {
+    "id": 101759,
+    "title": "Yakusoku no Neverland",
+    "score": 9.0
+  },
+  {
+    "id": 87423,
+    "title": "Yakusoku no Neverland",
+    "score": 8.0
+  },
+  {
+    "id": 108725,
+    "title": "Yakusoku no Neverland 2",
+    "score": 1.0
+  },
+  {
+    "id": 141986,
+    "title": "Yakuza no Oshigoto",
+    "score": 0.0
+  },
+  {
+    "id": 128557,
+    "title": "Yakyuu de Sensou suru Isekai de Choukoukoukyuu Ace ga Jakushou Kokka wo Sukuu Youdesu",
+    "score": 3.0
+  },
+  {
+    "id": 154965,
+    "title": "Yamada-kun to Lv999 no Koi wo Suru",
+    "score": 8.0
+  },
+  {
+    "id": 109501,
+    "title": "Yamada-kun to Lv999 no Koi wo Suru",
+    "score": 7.0
+  },
+  {
+    "id": 130229,
+    "title": "Yeopchongsonyeon",
+    "score": 0.0
+  },
+  {
+    "id": 120527,
+    "title": "Yo ga Yo nara!",
+    "score": 0.0
+  },
+  {
+    "id": 138066,
+    "title": "Yoarashi ni Warau",
+    "score": 6.0
+  },
+  {
+    "id": 141391,
+    "title": "Yofukashi no Uta",
+    "score": 9.0
+  },
+  {
+    "id": 111233,
+    "title": "Yofukashi no Uta",
+    "score": 9.0
+  },
+  {
+    "id": 7785,
+    "title": "Yojouhan Shinwa Taikei",
+    "score": 7.0
+  },
+  {
+    "id": 99003,
+    "title": "Yondome wa Iyana Shi Zokusei Majutsushi",
+    "score": 6.0
+  },
+  {
+    "id": 135318,
+    "title": "Yongsa-ga Dorawatda",
+    "score": 5.0
+  },
+  {
+    "id": 98659,
+    "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+    "score": 7.0
+  },
+  {
+    "id": 145545,
+    "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2nd Season",
+    "score": 7.0
+  },
+  {
+    "id": 146066,
+    "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season",
+    "score": 6.0
+  },
+  {
+    "id": 18179,
+    "title": "Yowamushi Pedal",
+    "score": 7.0
+  },
+  {
+    "id": 99476,
+    "title": "Yowamushi Pedal: GLORY LINE",
+    "score": 7.0
+  },
+  {
+    "id": 20723,
+    "title": "Yowamushi Pedal: GRANDE ROAD",
+    "score": 7.0
+  },
+  {
+    "id": 4548,
+    "title": "Yozakura Quartet",
+    "score": 5.0
+  },
+  {
+    "id": 166794,
+    "title": "Yubisaki to Renren",
+    "score": 7.5
+  },
+  {
+    "id": 105552,
+    "title": "Yupiel-sama no Geboku",
+    "score": 9.0
+  },
+  {
+    "id": 98444,
+    "title": "Yuru Camp\u25b3",
+    "score": 0.0
+  },
+  {
+    "id": 104459,
+    "title": "Yuru Camp\u25b3 SEASON 2",
+    "score": 0.0
+  },
+  {
+    "id": 10495,
+    "title": "Yuru Yuri",
+    "score": 7.0
+  },
+  {
+    "id": 21088,
+    "title": "Yuru Yuri San\u2606Hai!",
+    "score": 7.0
+  },
+  {
+    "id": 12403,
+    "title": "Yuru Yuri\u266a\u266a",
+    "score": 7.0
+  },
+  {
+    "id": 20800,
+    "title": "Yuuki Yuuna wa Yuusha de Aru",
+    "score": 8.0
+  },
+  {
+    "id": 114124,
+    "title": "Yuukoku no Moriarty",
+    "score": 5.5
+  },
+  {
+    "id": 86217,
+    "title": "Yuushatachi",
+    "score": 8.0
+  },
+  {
+    "id": 392,
+    "title": "Yuu\u2606Yuu\u2606Hakusho",
+    "score": 9.0
+  },
+  {
+    "id": 481,
+    "title": "Yu\u2606Gi\u2606Oh! Duel Monsters",
+    "score": 9.0
+  },
+  {
+    "id": 482,
+    "title": "Yu\u2606Gi\u2606Oh! Duel Monsters GX",
+    "score": 8.0
+  },
+  {
+    "id": 6377,
+    "title": "Zan Sayonara Zetsubou Sensei",
+    "score": 8.0
+  },
+  {
+    "id": 20661,
+    "title": "Zankyou no Terror",
+    "score": 9.0
+  },
+  {
+    "id": 142879,
+    "title": "Zense wa Kentei. Konjou Kuzu Ouji",
+    "score": 7.0
+  },
+  {
+    "id": 763,
+    "title": "Zoids",
+    "score": 6.0
+  },
+  {
+    "id": 55245,
+    "title": "Zoku Hoshi Mamoru Inu",
+    "score": 10.0
+  },
+  {
+    "id": 100815,
+    "title": "Zoku Owarimonogatari",
+    "score": 0.0
+  },
+  {
+    "id": 3228,
+    "title": "Zoku Sayonara Zetsubou Sensei",
+    "score": 8.0
+  },
+  {
+    "id": 159831,
+    "title": "Zom 100: Zombie ni Naru Made ni Shitai 100 no Koto",
+    "score": 7.0
+  },
+  {
+    "id": 142538,
+    "title": "Zombie no Afureta Sekai de Ore Dake ga Osowarenai",
+    "score": 6.0
+  },
+  {
+    "id": 118270,
+    "title": "Zombishoujo no Fujimi-san",
+    "score": 7.0
   }
 ]
