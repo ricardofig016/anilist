@@ -1,5 +1,6 @@
-data/users
 data/media.json
+data/users/*
+!data/users/dummy_user.json
 results/*
 
 __pycache__
