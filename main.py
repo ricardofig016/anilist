@@ -4,6 +4,7 @@ from icecream import ic
 from user import read_user_data, fetch_user_data, store_user_data
 from media import read_media_data, fetch_and_store_media_data, display_media
 from preference import get_preferences
+from recommendation import get_recommendations
 
 
 def main():
@@ -28,9 +29,15 @@ def main():
     if "--display-media" in sys.argv:
         display_media(media_data)
 
+    preferences = get_preferences(user_data, media_data)
+    recommendations = get_recommendations(user_data, media_data, preferences)
+
     if "--preferences" in sys.argv:
-        preferences = get_preferences(user_data, media_data)
         ic(preferences)
+
+    if "--recommendations" in sys.argv:
+        size = int(sys.argv[sys.argv.index("--recommendations") + 1])
+        ic(recommendations[:size])
 
 
 if __name__ == "__main__":
