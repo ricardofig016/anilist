@@ -15,23 +15,42 @@ def get_preferences(user_data, media_data):
     list_attributes = ["genres", "studios"]
     dict_attributes = ["tags"]
 
-    for attribute in qualitative_attributes + quantitative_attributes:
-        # ic(attribute)
+    for attribute in (
+        qualitative_attributes
+        + quantitative_attributes
+        + list_attributes
+        + dict_attributes
+    ):
         values = []
         scores = []
+        ranks = []  # only used for dictionary-type attributes
         for entry in user_data:
             value = find_value_from_id(entry["id"], attribute, media_data)
             score = entry["score"]
             if value and score > 0:
-                # ic(value, score)
-                values.append(value)
-                scores.append(score)
-        if attribute in qualitative_attributes:
-            # for key, value in get_qualitative_preference(values, scores).items():
-            #    preferences[f"{attribute}.{key}"] = value
+                if attribute in list_attributes:
+                    value_array = value
+                    for element in value_array:
+                        if element:
+                            values.append(element)
+                            scores.append(score)
+                elif attribute in dict_attributes:
+                    dict_array = value
+                    for dict in dict_array:
+                        if dict:
+                            values.append(dict["name"])
+                            scores.append(score)
+                            ranks.append(dict["rank"])
+                else:
+                    values.append(value)
+                    scores.append(score)
+        if attribute in qualitative_attributes + list_attributes:
             preferences[attribute] = get_qualitative_preference(values, scores)
+        elif attribute in dict_attributes:
+            preferences[attribute] = get_qualitative_preference(values, scores, ranks)
         else:
             preferences[attribute] = get_quantitative_preference(values, scores)
+
     return preferences
 
 
@@ -53,7 +72,7 @@ def find_value_from_id(id, key, media_data):
     return None
 
 
-def get_qualitative_preference(values, scores):
+def get_qualitative_preference(values, scores, ranks=[]):
     if len(values) == 0:  # len(values)==len(scores)
         return {}
 
@@ -64,13 +83,18 @@ def get_qualitative_preference(values, scores):
     if score_range == 0:
         return {}
 
+    if not ranks:
+        ranks = [100 for _ in values]
+    ranks = [round(rank / 100, 2) for rank in ranks]
+
     preference = {value: 0 for value in values}
-    for value, score in zip(values, scores):
-        score_index = (score - min_score) / score_range * 2 - 1
+    for value, score, rank in zip(values, scores, ranks):
+        score_index = ((score - min_score) / score_range * 2 - 1) * rank
         preference[value] += score_index
 
     for key, value in preference.items():
-        preference[key] = round(preference[key] / values.count(key), 2)
+        key_ranks = [ranks[i] for i in range(len(ranks)) if values[i] == key]
+        preference[key] = round(preference[key] / sum(key_ranks), 2)
 
     return preference
 

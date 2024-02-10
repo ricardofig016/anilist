@@ -144,24 +144,24 @@ def read_media_data():
 
 
 def display_media(data):
-    sort_keys = input("[display] Sort by: ").split(".")
+    sort_keys = input("[display_media] Sort by: ").split(".")
 
     example_value = data[0]
     try:
         for key in sort_keys:
             example_value = example_value[key]
     except:
-        print(f"[display] Error: {sort_keys} is not a valid key combination.")
+        print(f"[display_media] Error: {sort_keys} is not a valid key combination.")
         return
 
     if type(example_value) == dict:
         print(
-            "[display] Error: Key cannot be a dictionary.",
+            "[display_media] Error: Key cannot be a dictionary.",
             "Use <dict>.<key> to access keys inside dictionaries.",
         )
         return
 
-    is_reverse = input("[display] Reverse (y/n): ").lower() == "y"
+    is_reverse = input("[display_media] Reverse (y/n): ").lower() == "y"
 
     default_value = 0
     if type(example_value) == str:
@@ -185,13 +185,13 @@ def display_media(data):
             reverse=is_reverse,
         )
     else:
-        print(f"[display] Error: {len(sort_keys)} is not a valid number of keys")
+        print(f"[display_media] Error: {len(sort_keys)} is not a valid number of keys")
 
     filter_keys = []
-    key_combination = input("[display] Filter by (-1 to finish): ").split(".")
+    key_combination = input("[display_media] Filter by (-1 to finish): ").split(".")
     while key_combination[0] != "-1":
         filter_keys.append(key_combination)
-        key_combination = input("[display] Filter by (-1 to finish): ").split(".")
+        key_combination = input("[display_media] Filter by (-1 to finish): ").split(".")
 
     try:
         filtered_data = []
@@ -207,7 +207,7 @@ def display_media(data):
         file_path = os.path.join("results", "display_media.json")
         with open(file_path, "w") as file:
             json.dump(filtered_data, file, indent=2)
-        print(f"[display] See results at '{file_path}'")
+        print(f"[display_media] See results at '{file_path}'")
     except Exception as e:
-        print("[display] Error: ", e)
+        print("[display_media] Error: ", e)
     return
