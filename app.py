@@ -1,10 +1,10 @@
 from flask import Flask, request, jsonify, g, abort
 from functools import wraps
 
-from user import read_user_data, fetch_user_data, store_user_data
-from media import read_media_data, fetch_and_store_media_data, display_media
-from preference import get_preferences
-from recommendation import get_recommendations
+from modules.user import read_user_data, fetch_user_data, store_user_data
+from modules.media import read_media_data, fetch_and_store_media_data, display_media
+from modules.preference import get_preferences
+from modules.recommendation import get_recommendations
 
 
 app = Flask(__name__)
@@ -66,7 +66,7 @@ def index():
 @media_data_decorator
 @preferences_decorator
 def preferences_route():
-    return jsonify({"preferences": g.preferences}), 200
+    return jsonify(g.preferences), 200
 
 
 @app.route("/recommendations", methods=["GET"])
@@ -75,9 +75,9 @@ def preferences_route():
 @preferences_decorator
 @recommendations_decorator
 def recommendations_route():
-    size = request.args.get("size", 10)  # Default size is 10
+    size = request.args.get("size", "10")  # Default size is 10
     if size.isdigit() and int(size) > 0 and int(size) <= 1000:
-        return jsonify({"recommendations": g.recommendations[: int(size)]}), 200
+        return jsonify(g.recommendations[: int(size)]), 200
     else:
         return jsonify({"error": "size must be integer and <= 1000"}), 400
 

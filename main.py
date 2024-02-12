@@ -1,10 +1,10 @@
 import sys
 from icecream import ic
 
-from user import read_user_data, fetch_user_data, store_user_data
-from media import read_media_data, fetch_and_store_media_data, display_media
-from preference import get_preferences
-from recommendation import get_recommendations
+from modules.user import read_user_data, fetch_user_data, store_user_data
+from modules.media import read_media_data, fetch_and_store_media_data, display_media
+from modules.preference import get_preferences
+from modules.recommendation import get_recommendations
 
 
 def main():
