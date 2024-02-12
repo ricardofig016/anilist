@@ -1,7 +1,7 @@
 import sys
 from icecream import ic
 
-from modules.user import read_user_data, fetch_user_data, store_user_data
+from modules.user import read_user_data
 from modules.media import read_media_data, fetch_and_store_media_data, display_media
 from modules.preference import get_preferences
 from modules.recommendation import get_recommendations
@@ -16,12 +16,12 @@ def main():
 
     username = sys.argv[1]
 
-    user_data = read_user_data(username)
-    media_data = read_media_data()
+    force_fetch_user = False
+    if "--fetch-user" in sys.argv:
+        force_fetch_user = True
 
-    if not user_data or "--fetch-user" in sys.argv:
-        user_data = fetch_user_data(username)
-        store_user_data(username, user_data)
+    user_data = read_user_data(username, force_fetch_user)
+    media_data = read_media_data()
 
     if "--fetch-media" in sys.argv:
         fetch_and_store_media_data()
