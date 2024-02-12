@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recommendations</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/styles.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Recommendations</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Recommended Anime</h2>
+        <ul>
+          {% for recommendation in recommendations %}
+          <li>
+            <h3>
+              <a href="{{ recommendation.media_info.siteUrl }}"
+                >{{ recommendation.title }}</a
+              >
+            </h3>
+            <p>Expected Score: {{ recommendation.expectedScore }}</p>
+            <p>Year: {{ recommendation.media_info.year }}</p>
+            <p>Genres: {{ recommendation.media_info.genres }}</p>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 My Website</p>
+    </footer>
+  </body>
+</html>
