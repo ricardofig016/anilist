@@ -23,7 +23,7 @@ def get_page_content(url):
     time.sleep(5)
     while not is_scroll_at_bottom(driver):
         body.send_keys(Keys.END)
-        time.sleep(0.5)
+        time.sleep(0.7)
     html_content = driver.page_source
     driver.quit()
     return html_content
@@ -59,11 +59,16 @@ def store_user_data(username, data):
     return
 
 
-def read_user_data(username):
+def read_user_data(username, force=False):
     path = f"data/users/{username}.json"
     try:
         with open(path, "r") as file:
             data = json.load(file)
         return data
     except:
-        return False
+        force = True
+    finally:
+        if force:
+            data = fetch_user_data(username)
+            store_user_data(username, data)
+            return data
