@@ -24,6 +24,7 @@ def get_recommendations(user_data, media_data, preferences):
             "id": media["id"],
             "title": title,
             "expectedScore": round(expected_score, 2),
+            "media_info": media,
         }
         recommendations.append(media_rec)
 
