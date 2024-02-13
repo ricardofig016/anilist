@@ -6,10 +6,9 @@ import requests
 import traceback
 
 
-def fetch_and_store_media_data():
+def fetch_and_store_media_data(index=0):
     media_data = read_media_data()
     try:
-        index = 0
         if len(media_data) > 0:
             index = media_data[-1]["id"] + 1
         while True:
@@ -24,6 +23,46 @@ def fetch_and_store_media_data():
         traceback.print_exc()
     finally:
         store_media_data(media_data)
+
+
+def update_media_data(id_=0):
+    media_data = read_media_data()
+    try:
+        oldest_index = 0
+        oldest_time = media_data[0].get("lastUpdated", 0)
+        for i in range(len(media_data)):
+            if media_data[i].get("lastUpdated", 0) < oldest_time:
+                oldest_time = media_data[i].get("lastUpdated", 0)
+                oldest_index = i
+        ic(oldest_index)
+
+        index = oldest_index
+        if id_ != 0:
+            index = find_index_by_id(media_data, id_)
+        ic(index)
+
+        ic(len(media_data))
+        while index < len(media_data):
+            media_id = media_data[index]["id"]
+            ic(index, media_id)
+            item_ = fetch_media_item(media_id)
+            if item_:
+                media_data[index] = item_
+            index += 1
+            time.sleep(1.8)
+    except Exception as e:
+        ic(e)
+        traceback.print_exc()
+    finally:
+        print("now storing media data...")
+        store_media_data(media_data)
+
+
+def find_index_by_id(data, target_id):
+    for index, d in enumerate(data):
+        if d.get("id") == target_id:
+            return index
+    return None
 
 
 def fetch_media_item(id_):
@@ -45,14 +84,18 @@ def fetch_media_item(id_):
         }
         episodes
         chapters
+        volumes
         countryOfOrigin
+        isLicensed
         source
         coverImage {
             extraLarge
         }
+        bannerImage
         genres
         averageScore
         popularity
+        favourites
         tags {
             name
             rank
@@ -65,8 +108,8 @@ def fetch_media_item(id_):
                 isMain
             }
         }
+        isAdult
         siteUrl
-        
     }
     }
     """
@@ -96,8 +139,6 @@ def fetch_media_item(id_):
 
 
 def organize_title_media(media_data):
-    tags = media_data["tags"]
-
     studios = []
     for studio in media_data["studios"]["edges"]:
         if studio["isMain"]:
@@ -114,15 +155,21 @@ def organize_title_media(media_data):
         "year": media_data["startDate"]["year"],
         "episodes": media_data["episodes"],
         "chapters": media_data["chapters"],
+        "volumes": media_data["volumes"],
         "country": media_data["countryOfOrigin"],
+        "isLicensed": media_data["isLicensed"],
         "source": media_data["source"],
         "coverImage": media_data["coverImage"]["extraLarge"],
+        "bannerImage": media_data["bannerImage"],
         "genres": media_data["genres"],
         "averageScore": media_data["averageScore"],
         "popularity": media_data["popularity"],
-        "tags": tags,
+        "favourites": media_data["favourites"],
+        "tags": media_data["tags"],
         "studios": studios,
+        "isAdult": media_data["isAdult"],
         "siteUrl": media_data["siteUrl"],
+        "lastUpdated": int(time.time()),
     }
     return item
 
@@ -130,9 +177,8 @@ def organize_title_media(media_data):
 def store_media_data(data):
     path = f"data/media.json"
 
-    json_data = json.dumps(data, indent=2)
     with open(path, "w", encoding="utf-8") as file:
-        file.write(json_data)
+        json.dump(data, file, indent=2)
     return
 
 
@@ -171,17 +217,21 @@ def display_media(data):
     if len(sort_keys) == 1:
         sorted_data = sorted(
             data,
-            key=lambda x: x.get(sort_keys[0], default_value)
-            if x.get(sort_keys[0]) is not None
-            else default_value,
+            key=lambda x: (
+                x.get(sort_keys[0], default_value)
+                if x.get(sort_keys[0]) is not None
+                else default_value
+            ),
             reverse=is_reverse,
         )
     elif len(sort_keys) == 2:
         sorted_data = sorted(
             data,
-            key=lambda x: x.get(sort_keys[0]).get(sort_keys[1], default_value)
-            if x.get(sort_keys[0]).get(sort_keys[1]) is not None
-            else default_value,
+            key=lambda x: (
+                x.get(sort_keys[0]).get(sort_keys[1], default_value)
+                if x.get(sort_keys[0]).get(sort_keys[1]) is not None
+                else default_value
+            ),
             reverse=is_reverse,
         )
     else:
@@ -211,3 +261,7 @@ def display_media(data):
     except Exception as e:
         print("[display_media] Error: ", e)
     return
+
+
+if __name__ == "__main__":
+    update_media_data()
