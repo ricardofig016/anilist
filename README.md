@@ -36,7 +36,7 @@ Example:
 
 - **--fetch-user** : Fetch user data even if list is already stored.
 - **--fetch-media** : Continue fetching media data.
+- **--update-media** : Update media data.
 - **--display-media** : Display media data on file _display_media.json_.
-- **--update** : Update media data. (NOT IMPLEMENTED)
 - **--preferences** : Output dictionary with user preferences
 - **--recommendations \<size\>** : Output array of size <size> sorted by the most recommendation score

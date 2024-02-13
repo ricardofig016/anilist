@@ -2,7 +2,12 @@ import sys
 from icecream import ic
 
 from modules.user import read_user_data
-from modules.media import read_media_data, fetch_and_store_media_data, display_media
+from modules.media import (
+    read_media_data,
+    fetch_and_store_media_data,
+    update_media_data,
+    display_media,
+)
 from modules.preference import get_preferences
 from modules.recommendation import get_recommendations
 
@@ -25,6 +30,9 @@ def main():
 
     if "--fetch-media" in sys.argv:
         fetch_and_store_media_data()
+
+    if "--update-media" in sys.argv:
+        update_media_data()
 
     if "--display-media" in sys.argv:
         display_media(media_data)
