@@ -34,28 +34,37 @@ def get_recommendations(user_data, media_data, preferences):
 def calc_expected_scores(media, preferences):
     expected_scores = {}
 
-    qualitative_attributes = ["type", "format", "country", "source"]
+    qualitative_attributes = [
+        "type",
+        "format",
+        "country",
+        "isLicensed",
+        "source",
+        "isAdult",
+    ]
     quantitative_attributes = [
         "year",
         "episodes",
         "chapters",
+        "volumes",
         "averageScore",
         "popularity",
+        "favourites",
     ]
     list_attributes = ["genres", "studios"]
     dict_attributes = ["tags"]
 
     for attribute in qualitative_attributes:
         if (
-            preferences[attribute]
-            and media[attribute]
+            preferences.get(attribute) is not None
+            and media.get(attribute) is not None
             and media[attribute] in preferences[attribute]
         ):
             expected_score = preferences[attribute][media[attribute]]
             expected_scores[f"{attribute}.{media[attribute]}"] = expected_score
 
     for attribute in quantitative_attributes:
-        if preferences[attribute] and media[attribute]:
+        if preferences.get(attribute) is not None and media.get(attribute) is not None:
             # Number used to divide the quantitative values in 2 preferences (median)
             pivot = int(next(iter(preferences[attribute]))[1:])
             if media[attribute] < pivot:
@@ -66,7 +75,7 @@ def calc_expected_scores(media, preferences):
                 expected_scores[f"{attribute}.>{pivot}"] = expected_score
 
     for attribute in list_attributes:
-        if preferences[attribute] and media[attribute]:
+        if preferences.get(attribute) is not None and media.get(attribute) is not None:
             for media_list_element in media[attribute]:
                 if media_list_element in preferences[attribute]:
                     expected_score = preferences[attribute][media_list_element]
@@ -75,7 +84,7 @@ def calc_expected_scores(media, preferences):
                     )
 
     for attribute in dict_attributes:
-        if preferences[attribute] and media[attribute]:
+        if preferences.get(attribute) is not None and media.get(attribute) is not None:
             for media_dict in media[attribute]:
                 if media_dict["name"] in preferences[attribute]:
                     rank = media_dict["rank"] / 100
@@ -105,11 +114,15 @@ def calc_weighted_expected_scores(expected_scores):
         ("year", 1),
         ("episodes", 1),
         ("chapters", 1),
+        ("volumes", 1),
         ("averageScore", 1),
         ("popularity", 1),
+        ("favourites", 1),
         ("country", 1),
+        ("isLicensed", 1),
         ("studios", 1),
         ("type", 1),
+        ("isAdult", 1),
         ("genres", 2),
         ("tags", 2),
     ]

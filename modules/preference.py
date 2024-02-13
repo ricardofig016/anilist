@@ -4,13 +4,22 @@ from icecream import ic
 def get_preferences(user_data, media_data):
     preferences = {}
 
-    qualitative_attributes = ["type", "format", "country", "source"]
+    qualitative_attributes = [
+        "type",
+        "format",
+        "country",
+        "isLicensed",
+        "source",
+        "isAdult",
+    ]
     quantitative_attributes = [
         "year",
         "episodes",
         "chapters",
+        "volumes",
         "averageScore",
         "popularity",
+        "favourites",
     ]
     list_attributes = ["genres", "studios"]
     dict_attributes = ["tags"]
@@ -27,7 +36,7 @@ def get_preferences(user_data, media_data):
         for entry in user_data:
             value = find_value_from_id(entry["id"], attribute, media_data)
             score = entry["score"]
-            if value and score > 0:
+            if value is not None and score > 0:
                 if attribute in list_attributes:
                     value_array = value
                     for element in value_array:
@@ -63,7 +72,7 @@ def find_value_from_id(id, key, media_data):
         mid_entry = media_data[mid]
 
         if mid_entry["id"] == id:
-            return mid_entry[key]
+            return mid_entry.get(key)
         elif mid_entry["id"] < id:
             low = mid + 1
         else:
